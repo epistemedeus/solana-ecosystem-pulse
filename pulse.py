@@ -515,7 +515,7 @@ def markdown_report(snapshot: dict[str, Any]) -> str:
     ]
     if anomalies:
         lines.extend(
-            f"- **{item['severity'].upper()} — {item['metric']}:** {item['message']} ({item['basis']})"
+            f"- **{item['severity'].upper()}: {item['metric']}:** {item['message']} ({item['basis']})"
             for item in anomalies
         )
     else:
@@ -526,10 +526,10 @@ def markdown_report(snapshot: dict[str, Any]) -> str:
         lines.append(f"| {index} | `{vote}` | {fmt_number(validator.get('stake_sol'), 0)} SOL | {fmt_number(validator.get('commission_pct'), 0)}% |")
     lines.extend(["", "## Ecosystem updates", "", "### Official Solana news", ""])
     for item in snapshot["ecosystem"]["news"]:
-        lines.append(f"- [{item['title']}]({item['url']}) — {item['published_at']}")
+        lines.append(f"- [{item['title']}]({item['url']}) ({item['published_at']})")
     lines.extend(["", "### Agave releases", ""])
     for item in snapshot["ecosystem"]["agave_releases"]:
-        lines.append(f"- [{item['name']}]({item['url']}) — {item['published_at']}")
+        lines.append(f"- [{item['name']}]({item['url']}) ({item['published_at']})")
     lines.extend(["", "## Source health", "", "| Source | Status | Latency | Checked |", "|---|---|---:|---|"])
     for source in snapshot["sources"]:
         lines.append(f"| [{source['name']}]({source['url']}) | {source['status']} | {source['latency_ms']} ms | {source['checked_at']} |")
@@ -569,7 +569,7 @@ a{{color:var(--cyan);text-decoration:none}} a:hover{{text-decoration:underline}}
 </style>
 </head>
 <body><main class="wrap">
-<header><div><div class="eyebrow">Keyless · verifiable · auto-updating</div><h1>Solana<br>Ecosystem Pulse</h1><div class="sub">Network health, validator concentration, economic activity, upgrades and anomaly signals—collected from direct RPC and public sources without credentials.</div></div><div class="stamp"><div class="badge"><span class="dot"></span><span id="status"></span></div><div class="detail" style="margin-top:8px">Last refresh<br><strong id="generated"></strong></div></div></header>
+<header><div><div class="eyebrow">Keyless · verifiable · auto-updating</div><h1>Solana<br>Ecosystem Pulse</h1><div class="sub">Network health, validator concentration, economic activity, upgrades and anomaly signals, collected from direct RPC and public sources without credentials.</div></div><div class="stamp"><div class="badge"><span class="dot"></span><span id="status"></span></div><div class="detail" style="margin-top:8px">Last refresh<br><strong id="generated"></strong></div></div></header>
 <section class="grid" id="metrics"></section>
 <h2>Signal desk</h2><section id="alerts"></section>
 <section class="grid" style="margin-top:14px"><article class="card wide"><div class="label">TPS · recent samples</div><div id="tpsChart"></div></article><article class="card wide"><div class="label">DeFi TVL · recent snapshots</div><div id="tvlChart"></div></article></section>
@@ -586,7 +586,7 @@ const n=D.network,v=D.validators,e=D.economy;
 const cards=[['Network TPS',num(n.tps_recent,1),num(n.non_vote_tps_recent,1)+' non-vote TPS'],['Slot time',num(n.slot_time_ms_recent,1)+' ms',num(n.sample_window_seconds)+' sec sample window'],['Active validators',num(v.active_count),num(v.delinquent_count)+' delinquent'],['Delinquent stake',num(v.delinquent_stake_pct,3)+'%',num(v.delinquent_stake_sol,0)+' SOL equivalent'],['SOL price',usd(e.sol_price_usd),(e.sol_price_change_24h_pct>=0?'+':'')+num(e.sol_price_change_24h_pct,2)+'% · 24h'],['DeFi TVL',usd(e.defi_tvl_usd),'DeFiLlama chain TVL'],['Stablecoin supply',usd(e.stablecoin_supply_usd),'USD-pegged circulation'],['DEX volume · 24h',usd(e.dex_volume_24h_usd),(e.dex_volume_change_24h_pct>=0?'+':'')+num(e.dex_volume_change_24h_pct,2)+'% day over day']];
 $('metrics').innerHTML=cards.map((c,i)=>`<article class="card"><div class="label">${{esc(c[0])}}</div><div class="value">${{esc(c[1])}}</div><div class="detail">${{esc(c[2])}}</div>${{i===0?'<div class="accent"></div>':''}}</article>`).join('');
 $('alerts').innerHTML=D.anomalies.length?D.anomalies.map(a=>`<div class="alert ${{esc(a.severity)}}"><strong>${{esc(a.severity)}} · ${{esc(a.metric)}}</strong><div>${{esc(a.message)}}</div><div class="detail">${{esc(a.basis)}}</div></div>`).join(''):'<div class="alert info"><strong>Clear</strong><div>No rule-based or baseline anomalies detected with available data.</div></div>';
-function spark(metric,format){{const pts=D.history.map(x=>x.metrics?.[metric]).filter(x=>Number.isFinite(x));if(pts.length<2)return'<div class="detail" style="margin-top:20px">History builds automatically after each scheduled refresh.</div>';const lo=Math.min(...pts),hi=Math.max(...pts),span=hi-lo||1,path=pts.map((x,i)=>`${{i?'L':'M'}} ${{(i/(pts.length-1)*100).toFixed(2)}} ${{(68-(x-lo)/span*58).toFixed(2)}}`).join(' ');return`<svg class="spark" viewBox="0 0 100 76" preserveAspectRatio="none"><defs><linearGradient id="g${{metric}}"><stop stop-color="#14f195"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs><path d="${{path}}" fill="none" stroke="url(#g${{metric}})" stroke-width="2" vector-effect="non-scaling-stroke"/></svg><div class="detail">${{format(pts.at(-1))}} now · range ${{format(lo)}}–${{format(hi)}}</div>`}};
+function spark(metric,format){{const pts=D.history.map(x=>x.metrics?.[metric]).filter(x=>Number.isFinite(x));if(pts.length<2)return'<div class="detail" style="margin-top:20px">History builds automatically after each scheduled refresh.</div>';const lo=Math.min(...pts),hi=Math.max(...pts),span=hi-lo||1,path=pts.map((x,i)=>`${{i?'L':'M'}} ${{(i/(pts.length-1)*100).toFixed(2)}} ${{(68-(x-lo)/span*58).toFixed(2)}}`).join(' ');return`<svg class="spark" viewBox="0 0 100 76" preserveAspectRatio="none"><defs><linearGradient id="g${{metric}}"><stop stop-color="#14f195"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs><path d="${{path}}" fill="none" stroke="url(#g${{metric}})" stroke-width="2" vector-effect="non-scaling-stroke"/></svg><div class="detail">${{format(pts.at(-1))}} now · range ${{format(lo)}} to ${{format(hi)}}</div>`}};
 $('tpsChart').innerHTML=spark('tps',x=>num(x,1)); $('tvlChart').innerHTML=spark('defi_tvl_usd',usd);
 $('epoch').textContent='Epoch '+num(n.epoch); $('epochBar').style.width=Math.max(0,Math.min(100,n.epoch_progress_pct||0))+'%'; $('epochDetail').textContent=num(n.epoch_progress_pct,2)+'% · slot '+num(n.epoch_slot_index)+' of '+num(n.epoch_slots);
 $('nakamoto').textContent=num(v.nakamoto_33_coefficient)+' validators'; $('stakeDetail').textContent='to exceed 33% of active stake · top 10 hold '+num(v.top_10_stake_pct,2)+'%';

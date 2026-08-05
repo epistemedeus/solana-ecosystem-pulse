@@ -1,21 +1,21 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-08-05T13:38:50Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
+_Generated 2026-08-05T14:35:34Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 4,129.5 / 2,487.1 |
+| Recent TPS / non-vote TPS | 4,128.1 / 2,486.6 |
 | Recent slot time | 416.7 ms |
-| Epoch progress | 47.5% |
+| Epoch progress | 49.3% |
 | Active / delinquent validators | 692 / 7 |
 | Delinquent stake | 0.000% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $73.30 (-0.82%) |
+| SOL price (24h) | $73.80 (0.33%) |
 | DeFi TVL | $4.79B |
-| Stablecoin supply | $15.59B |
+| Stablecoin supply | $15.60B |
 | DEX volume, 24h | $1.75B |
 
 ## Anomalies
@@ -41,33 +41,33 @@ _Generated 2026-08-05T13:38:50Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Official Solana news
 
-- [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle) — Tue, 04 Aug 2026 13:05:00 GMT
-- [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles) — Fri, 31 Jul 2026 10:00:00 GMT
-- [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana) — Thu, 30 Jul 2026 15:25:00 GMT
-- [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026) — Thu, 30 Jul 2026 12:50:00 GMT
-- [Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026) — Thu, 23 Jul 2026 13:04:00 GMT
-- [Deploying enterprise stablecoin rails on Solana in days with Crossmint](https://solana.com/news/case-study-crossmint) — Thu, 23 Jul 2026 13:00:00 GMT
+- [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle) (Tue, 04 Aug 2026 13:05:00 GMT)
+- [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles) (Fri, 31 Jul 2026 10:00:00 GMT)
+- [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana) (Thu, 30 Jul 2026 15:25:00 GMT)
+- [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026) (Thu, 30 Jul 2026 12:50:00 GMT)
+- [Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026) (Thu, 23 Jul 2026 13:04:00 GMT)
+- [Deploying enterprise stablecoin rails on Solana in days with Crossmint](https://solana.com/news/case-study-crossmint) (Thu, 23 Jul 2026 13:00:00 GMT)
 
 ### Agave releases
 
-- [Release v4.2.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.1) — 2026-07-31T15:02:44Z
-- [Release v4.2.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.0) — 2026-07-24T12:47:31Z
-- [Release v4.3.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.2) — 2026-07-21T13:50:13Z
-- [Release v4.2.0-beta.2](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-beta.2) — 2026-07-17T19:00:47Z
-- [Release v4.3.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.1) — 2026-07-13T18:33:15Z
+- [Release v4.2.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.1) (2026-07-31T15:02:44Z)
+- [Release v4.2.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.0) (2026-07-24T12:47:31Z)
+- [Release v4.3.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.2) (2026-07-21T13:50:13Z)
+- [Release v4.2.0-beta.2](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-beta.2) (2026-07-17T19:00:47Z)
+- [Release v4.3.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.1) (2026-07-13T18:33:15Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 589 ms | 2026-08-05T13:38:43Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 272 ms | 2026-08-05T13:38:43Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 195 ms | 2026-08-05T13:38:43Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 205 ms | 2026-08-05T13:38:43Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 515 ms | 2026-08-05T13:38:43Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 452 ms | 2026-08-05T13:38:43Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 498 ms | 2026-08-05T13:38:43Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7449 ms | 2026-08-05T13:38:43Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 1572 ms | 2026-08-05T14:35:26Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 950 ms | 2026-08-05T14:35:26Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 1141 ms | 2026-08-05T14:35:26Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 2058 ms | 2026-08-05T14:35:26Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 960 ms | 2026-08-05T14:35:26Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 1261 ms | 2026-08-05T14:35:26Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 1779 ms | 2026-08-05T14:35:26Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7512 ms | 2026-08-05T14:35:26Z |
 
 ## Coverage and interpretation
 
