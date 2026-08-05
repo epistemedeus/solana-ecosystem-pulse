@@ -2,7 +2,7 @@
 
 A keyless, automatically updating view of Solana's network health, validator set, economic activity, ecosystem updates, and anomaly signals.
 
-**Live dashboard:** deployed by GitHub Pages after the first workflow run  
+**Live dashboard:** [epistemedeus.github.io/solana-ecosystem-pulse/dashboard/](https://epistemedeus.github.io/solana-ecosystem-pulse/dashboard/)  
 **Current machine-readable report:** [`data/latest.json`](./data/latest.json)  
 **Current human-readable report:** [`reports/latest.md`](./reports/latest.md)
 
@@ -103,4 +103,3 @@ This is operational telemetry, not financial advice.
 ## Originality
 
 The collector, normalization schema, robust anomaly engine, report renderer, and dashboard are original code written for this project. No SolPulse or other dashboard code was copied.
-
