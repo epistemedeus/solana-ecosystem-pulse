@@ -1,26 +1,26 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-08-13T13:51:07Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-08-13T19:28:38Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 5,096.3 / 3,428.9 |
-| Recent slot time | 408.2 ms |
-| Epoch progress | 27.3% |
+| Recent TPS / non-vote TPS | 3,950.7 / 2,296.2 |
+| Recent slot time | 413.8 ms |
+| Epoch progress | 38.6% |
 | Active / delinquent validators | 688 / 9 |
 | Delinquent stake | 0.014% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $76.19 (-0.04%) |
-| DeFi TVL | $4.81B |
-| Stablecoin supply | $15.44B |
+| SOL price (24h) | $76.00 (0.36%) |
+| DeFi TVL | $4.83B |
+| Stablecoin supply | $15.42B |
 | DEX volume, 24h | $1.73B |
 
 ## Anomalies
 
-- **WARNING: stablecoin_supply_usd:** stablecoin_supply_usd is unusually below its recent baseline. (robust z=-5.15, median=1.559e+10, n=36)
+- **WARNING: stablecoin_supply_usd:** stablecoin_supply_usd is unusually below its recent baseline. (robust z=-5.78, median=1.559e+10, n=37)
 
 ## Validator concentration
 
@@ -50,24 +50,24 @@ _Generated 2026-08-13T13:51:07Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Agave releases
 
+- [Release v4.2.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.1) (2026-08-13T18:49:41Z)
 - [Release v4.2.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0) (2026-08-07T20:29:04Z)
 - [Release v4.3.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.3) (2026-08-05T19:35:39Z)
 - [Release v4.2.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.1) (2026-07-31T15:02:44Z)
 - [Release v4.2.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.0) (2026-07-24T12:47:31Z)
-- [Release v4.3.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.2) (2026-07-21T13:50:13Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 368 ms | 2026-08-13T13:51:00Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 194 ms | 2026-08-13T13:51:00Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 1440 ms | 2026-08-13T13:51:00Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 373 ms | 2026-08-13T13:51:00Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 757 ms | 2026-08-13T13:51:00Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 318 ms | 2026-08-13T13:51:00Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 264 ms | 2026-08-13T13:51:00Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7262 ms | 2026-08-13T13:51:00Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 301 ms | 2026-08-13T19:28:31Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 121 ms | 2026-08-13T19:28:31Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 234 ms | 2026-08-13T19:28:31Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 226 ms | 2026-08-13T19:28:31Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 327 ms | 2026-08-13T19:28:31Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 225 ms | 2026-08-13T19:28:31Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 431 ms | 2026-08-13T19:28:31Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7748 ms | 2026-08-13T19:28:31Z |
 
 ## Coverage and interpretation
 
