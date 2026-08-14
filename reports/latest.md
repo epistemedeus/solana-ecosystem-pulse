@@ -1,26 +1,26 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-08-14T02:49:04Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-08-14T07:53:09Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 3,169.2 / 1,526.4 |
-| Recent slot time | 413.8 ms |
-| Epoch progress | 53.2% |
+| Recent TPS / non-vote TPS | 3,198.3 / 1,549.2 |
+| Recent slot time | 416.7 ms |
+| Epoch progress | 63.4% |
 | Active / delinquent validators | 688 / 9 |
 | Delinquent stake | 0.014% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $76.03 (0.41%) |
-| DeFi TVL | $4.83B |
-| Stablecoin supply | $15.44B |
+| SOL price (24h) | $75.55 (-1.06%) |
+| DeFi TVL | $4.84B |
+| Stablecoin supply | $15.45B |
 | DEX volume, 24h | $1.98B |
 
 ## Anomalies
 
-- **WARNING: stablecoin_supply_usd:** stablecoin_supply_usd is unusually below its recent baseline. (robust z=-4.32, median=1.559e+10, n=38)
+- **WARNING: stablecoin_supply_usd:** stablecoin_supply_usd is unusually below its recent baseline. (robust z=-4.06, median=1.559e+10, n=39)
 
 ## Validator concentration
 
@@ -60,14 +60,14 @@ _Generated 2026-08-14T02:49:04Z · schema `solana.ecosystem.pulse.v1` · status 
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 436 ms | 2026-08-14T02:48:57Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 180 ms | 2026-08-14T02:48:57Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 176 ms | 2026-08-14T02:48:57Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 1144 ms | 2026-08-14T02:48:57Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 278 ms | 2026-08-14T02:48:57Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 398 ms | 2026-08-14T02:48:57Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 204 ms | 2026-08-14T02:48:57Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7410 ms | 2026-08-14T02:48:57Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 359 ms | 2026-08-14T07:53:02Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 201 ms | 2026-08-14T07:53:02Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 238 ms | 2026-08-14T07:53:02Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 628 ms | 2026-08-14T07:53:02Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 149 ms | 2026-08-14T07:53:02Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 314 ms | 2026-08-14T07:53:02Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 201 ms | 2026-08-14T07:53:02Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7419 ms | 2026-08-14T07:53:02Z |
 
 ## Coverage and interpretation
 
