@@ -1,26 +1,26 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-08-19T07:08:08Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
+_Generated 2026-08-19T13:12:54Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 2,842.3 / 1,201.8 |
-| Recent slot time | 413.8 ms |
-| Epoch progress | 2.6% |
-| Active / delinquent validators | 682 / 13 |
-| Delinquent stake | 0.039% |
+| Recent TPS / non-vote TPS | 4,989.3 / 3,305.2 |
+| Recent slot time | 405.4 ms |
+| Epoch progress | 14.8% |
+| Active / delinquent validators | 685 / 10 |
+| Delinquent stake | 0.171% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $76.94 (1.29%) |
-| DeFi TVL | $4.89B |
-| Stablecoin supply | $15.41B |
-| DEX volume, 24h | $1.82B |
+| SOL price (24h) | $78.21 (2.79%) |
+| DeFi TVL | $4.92B |
+| Stablecoin supply | $15.35B |
+| DEX volume, 24h | $1.84B |
 
 ## Anomalies
 
-- No rule-based or robust-baseline anomalies detected with available data.
+- **WARNING: delinquent_stake_pct:** delinquent_stake_pct is unusually above its recent baseline. (robust z=11.08, median=0.0166, n=48)
 
 ## Validator concentration
 
@@ -41,12 +41,12 @@ _Generated 2026-08-19T07:08:08Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Official Solana news
 
+- [Lowering Slot Time and Validators Economic](https://solana.com/news/lowering-slot-time-and-validators-economic) (Wed, 19 Aug 2026 10:00:00 GMT)
 - [Transaction v1 and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off) (Mon, 17 Aug 2026 00:00:00 GMT)
 - [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026) (Thu, 13 Aug 2026 15:03:00 GMT)
 - [How Meow Built Agentic Banking and Agent Payment Rails, with Brandon Arvanaghi](https://solana.com/news/how-meow-built-agentic-banking-and-agent-payment-rails-with-brandon-arvanaghi) (Thu, 13 Aug 2026 02:06:00 GMT)
 - [Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo](https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap) (Wed, 12 Aug 2026 12:57:00 GMT)
 - [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps) (Tue, 11 Aug 2026 10:00:00 GMT)
-- [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026) (Thu, 06 Aug 2026 17:57:00 GMT)
 
 ### Agave releases
 
@@ -60,14 +60,14 @@ _Generated 2026-08-19T07:08:08Z · schema `solana.ecosystem.pulse.v1` · status 
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 299 ms | 2026-08-19T07:08:01Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 138 ms | 2026-08-19T07:08:01Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 155 ms | 2026-08-19T07:08:01Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 179 ms | 2026-08-19T07:08:01Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 150 ms | 2026-08-19T07:08:01Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 230 ms | 2026-08-19T07:08:01Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 281 ms | 2026-08-19T07:08:01Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6534 ms | 2026-08-19T07:08:01Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 383 ms | 2026-08-19T13:12:47Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 161 ms | 2026-08-19T13:12:47Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 172 ms | 2026-08-19T13:12:47Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 206 ms | 2026-08-19T13:12:47Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 166 ms | 2026-08-19T13:12:47Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 371 ms | 2026-08-19T13:12:47Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 334 ms | 2026-08-19T13:12:47Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6627 ms | 2026-08-19T13:12:47Z |
 
 ## Coverage and interpretation
 
