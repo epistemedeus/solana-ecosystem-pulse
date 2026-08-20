@@ -1,29 +1,28 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-08-20T13:13:49Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-08-20T19:03:12Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 3,724.1 / 2,077.7 |
-| Recent slot time | 416.7 ms |
-| Epoch progress | 62.9% |
+| Recent TPS / non-vote TPS | 4,501.3 / 2,817.6 |
+| Recent slot time | 411.0 ms |
+| Epoch progress | 74.5% |
 | Active / delinquent validators | 690 / 6 |
 | Delinquent stake | 0.001% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $87.15 (11.35%) |
-| DeFi TVL | $5.30B |
-| Stablecoin supply | $15.68B |
+| SOL price (24h) | $86.91 (5.87%) |
+| DeFi TVL | $5.31B |
+| Stablecoin supply | $15.73B |
 | DEX volume, 24h | $3.01B |
 
 ## Anomalies
 
-- **WARNING: defi_tvl_usd:** defi_tvl_usd is unusually above its recent baseline. (robust z=17.54, median=4.829e+09, n=48)
-- **WARNING: dex_volume_24h_usd:** dex_volume_24h_usd is unusually above its recent baseline. (robust z=5.19, median=1.582e+09, n=48)
-- **WARNING: sol_price_change_24h_pct:** SOL moved at least 10% over 24 hours. (fixed threshold)
-- **WARNING: sol_price_usd:** sol_price_usd is unusually above its recent baseline. (robust z=13.61, median=75.95, n=48)
+- **WARNING: defi_tvl_usd:** defi_tvl_usd is unusually above its recent baseline. (robust z=16.50, median=4.831e+09, n=48)
+- **WARNING: dex_volume_24h_usd:** dex_volume_24h_usd is unusually above its recent baseline. (robust z=4.83, median=1.597e+09, n=48)
+- **WARNING: sol_price_usd:** sol_price_usd is unusually above its recent baseline. (robust z=13.30, median=75.97, n=48)
 - **INFO: dex_volume_change_24h_pct:** DEX volume changed at least 35% day over day. (fixed threshold)
 
 ## Validator concentration
@@ -64,14 +63,14 @@ _Generated 2026-08-20T13:13:49Z · schema `solana.ecosystem.pulse.v1` · status 
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 251 ms | 2026-08-20T13:13:42Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 100 ms | 2026-08-20T13:13:42Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 313 ms | 2026-08-20T13:13:42Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 326 ms | 2026-08-20T13:13:42Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 214 ms | 2026-08-20T13:13:42Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 224 ms | 2026-08-20T13:13:42Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 283 ms | 2026-08-20T13:13:42Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6924 ms | 2026-08-20T13:13:42Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 274 ms | 2026-08-20T19:03:04Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 230 ms | 2026-08-20T19:03:04Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 199 ms | 2026-08-20T19:03:04Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 1312 ms | 2026-08-20T19:03:04Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 773 ms | 2026-08-20T19:03:04Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 280 ms | 2026-08-20T19:03:04Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 380 ms | 2026-08-20T19:03:04Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7397 ms | 2026-08-20T19:03:04Z |
 
 ## Coverage and interpretation
 
