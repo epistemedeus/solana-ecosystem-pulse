@@ -1,32 +1,32 @@
 {
   "anomalies": [
     {
-      "basis": "robust z=9.84, median=4.855e+09, n=48",
+      "basis": "robust z=7.26, median=4.875e+09, n=48",
       "message": "defi_tvl_usd is unusually above its recent baseline.",
       "metric": "defi_tvl_usd",
       "severity": "warning",
-      "value": 5566777746.7503
+      "value": 5607824782.0736
     },
     {
-      "basis": "robust z=9.44, median=0.0202, n=48",
+      "basis": "robust z=9.25, median=0.0202, n=48",
       "message": "delinquent_stake_pct is unusually above its recent baseline.",
       "metric": "delinquent_stake_pct",
       "severity": "warning",
-      "value": 0.1364
+      "value": 0.1649
     },
     {
-      "basis": "robust z=-6.36, median=411, n=48",
+      "basis": "robust z=-4.79, median=411, n=48",
       "message": "slot_time_ms is unusually below its recent baseline.",
       "metric": "slot_time_ms",
       "severity": "warning",
-      "value": 357.14
+      "value": 370.37
     },
     {
-      "basis": "robust z=9.97, median=76.56, n=48",
+      "basis": "robust z=9.26, median=76.56, n=48",
       "message": "sol_price_usd is unusually above its recent baseline.",
       "metric": "sol_price_usd",
       "severity": "warning",
-      "value": 96.22
+      "value": 96.0
     }
   ],
   "coverage": {
@@ -45,17 +45,17 @@
     ]
   },
   "economy": {
-    "circulating_supply_sol": 583276132.37,
-    "defi_tvl_usd": 5566777746.75029,
+    "circulating_supply_sol": 583275883.86,
+    "defi_tvl_usd": 5607824782.073633,
     "dex_volume_24h_usd": 2938613605.25,
     "dex_volume_30d_usd": 54343327334.82,
     "dex_volume_7d_usd": 19361707972.850002,
     "dex_volume_change_24h_pct": -21.27,
-    "sol_market_cap_usd": 56203213156.65773,
-    "sol_price_change_24h_pct": 1.4293095455484641,
-    "sol_price_usd": 96.22,
-    "stablecoin_supply_usd": 15762999413.20387,
-    "total_supply_sol": 632749241.84
+    "sol_market_cap_usd": 55991639516.358444,
+    "sol_price_change_24h_pct": 0.7665115910775058,
+    "sol_price_usd": 96.0,
+    "stablecoin_supply_usd": 15716232360.415804,
+    "total_supply_sol": 632748993.03
   },
   "ecosystem": {
     "agave_releases": [
@@ -160,21 +160,8 @@
       }
     ]
   },
-  "generated_at": "2026-08-24T13:16:19Z",
+  "generated_at": "2026-08-24T19:02:52Z",
   "history": [
-    {
-      "generated_at": "2026-08-12T13:51:30Z",
-      "metrics": {
-        "defi_tvl_usd": 4856596530.838384,
-        "delinquent_stake_pct": 0.0281,
-        "dex_volume_24h_usd": 1650837789.28,
-        "non_vote_tps": 2496.22,
-        "slot_time_ms": 422.54,
-        "sol_price_usd": 76.27,
-        "stablecoin_supply_usd": 15608616955.529268,
-        "tps": 4099.22
-      }
-    },
     {
       "generated_at": "2026-08-12T19:29:41Z",
       "metrics": {
@@ -785,88 +772,101 @@
         "stablecoin_supply_usd": 15762999413.20387,
         "tps": 4227.4
       }
+    },
+    {
+      "generated_at": "2026-08-24T19:02:52Z",
+      "metrics": {
+        "defi_tvl_usd": 5607824782.073633,
+        "delinquent_stake_pct": 0.1649,
+        "dex_volume_24h_usd": 2938613605.25,
+        "non_vote_tps": 2866.82,
+        "slot_time_ms": 370.37,
+        "sol_price_usd": 96.0,
+        "stablecoin_supply_usd": 15716232360.415804,
+        "tps": 4707.55
+      }
     }
   ],
   "network": {
-    "block_height": 419451108,
+    "block_height": 419507788,
     "epoch": 1021,
-    "epoch_progress_pct": 76.42,
-    "epoch_slot_index": 330120,
+    "epoch_progress_pct": 89.55,
+    "epoch_slot_index": 386857,
     "epoch_slots": 432000,
     "health": "ok",
-    "non_vote_tps_recent": 2330.67,
-    "non_vote_tps_rolling": 2284.84,
+    "non_vote_tps_recent": 2866.82,
+    "non_vote_tps_rolling": 2552.11,
     "sample_count": 60,
     "sample_window_seconds": 3600,
-    "slot": 441402120,
-    "slot_time_ms_recent": 357.14,
+    "slot": 441458857,
+    "slot_time_ms_recent": 370.37,
     "solana_core_version": "4.2.0",
-    "tps_recent": 4227.4,
-    "tps_rolling": 4154.27,
-    "transaction_count": 541349343075
+    "tps_recent": 4707.55,
+    "tps_rolling": 4402.77,
+    "transaction_count": 541442517076
   },
   "schema_version": "solana.ecosystem.pulse.v1",
   "sources": [
     {
-      "checked_at": "2026-08-24T13:16:12Z",
+      "checked_at": "2026-08-24T19:02:45Z",
       "error": null,
-      "latency_ms": 494,
+      "latency_ms": 645,
       "name": "agave_releases",
       "status": "ok",
       "url": "https://api.github.com/repos/anza-xyz/agave/releases?per_page=5"
     },
     {
-      "checked_at": "2026-08-24T13:16:12Z",
+      "checked_at": "2026-08-24T19:02:45Z",
       "error": null,
-      "latency_ms": 248,
+      "latency_ms": 293,
       "name": "coingecko",
       "status": "ok",
       "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true"
     },
     {
-      "checked_at": "2026-08-24T13:16:12Z",
+      "checked_at": "2026-08-24T19:02:45Z",
       "error": null,
-      "latency_ms": 172,
+      "latency_ms": 290,
       "name": "defillama_chains",
       "status": "ok",
       "url": "https://api.llama.fi/v2/chains"
     },
     {
-      "checked_at": "2026-08-24T13:16:12Z",
+      "checked_at": "2026-08-24T19:02:45Z",
       "error": null,
-      "latency_ms": 188,
+      "latency_ms": 1226,
       "name": "defillama_dex",
       "status": "ok",
       "url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
     },
     {
-      "checked_at": "2026-08-24T13:16:12Z",
+      "checked_at": "2026-08-24T19:02:45Z",
       "error": null,
-      "latency_ms": 221,
+      "latency_ms": 230,
       "name": "defillama_stables",
       "status": "ok",
       "url": "https://stablecoins.llama.fi/stablecoinchains"
     },
     {
-      "checked_at": "2026-08-24T13:16:12Z",
+      "checked_at": "2026-08-24T19:02:45Z",
       "error": null,
-      "latency_ms": 448,
+      "latency_ms": 492,
       "name": "simd_updates",
       "status": "ok",
       "url": "https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5"
     },
     {
-      "checked_at": "2026-08-24T13:16:12Z",
+      "checked_at": "2026-08-24T19:02:45Z",
       "error": null,
-      "latency_ms": 332,
+      "latency_ms": 379,
       "name": "solana_news",
       "status": "ok",
       "url": "https://solana.com/rss.xml"
     },
     {
-      "checked_at": "2026-08-24T13:16:12Z",
+      "checked_at": "2026-08-24T19:02:45Z",
       "error": null,
-      "latency_ms": 7026,
+      "latency_ms": 6967,
       "name": "solana_rpc",
       "status": "ok",
       "url": "https://api.mainnet-beta.solana.com"
@@ -875,10 +875,10 @@
   "status": "watch",
   "validators": {
     "active_count": 685,
-    "active_stake_sol": 432844903.02,
+    "active_stake_sol": 432721631.29,
     "delinquent_count": 10,
-    "delinquent_stake_pct": 0.1364,
-    "delinquent_stake_sol": 591409.71,
+    "delinquent_stake_pct": 0.1649,
+    "delinquent_stake_sol": 714681.44,
     "nakamoto_33_coefficient": 18,
     "top_10_stake_pct": 24.34,
     "top_validators": [

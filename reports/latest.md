@@ -1,29 +1,29 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-08-24T13:16:19Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-08-24T19:02:52Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 4,227.4 / 2,330.7 |
-| Recent slot time | 357.1 ms |
-| Epoch progress | 76.4% |
+| Recent TPS / non-vote TPS | 4,707.6 / 2,866.8 |
+| Recent slot time | 370.4 ms |
+| Epoch progress | 89.5% |
 | Active / delinquent validators | 685 / 10 |
-| Delinquent stake | 0.136% |
+| Delinquent stake | 0.165% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $96.22 (1.43%) |
-| DeFi TVL | $5.57B |
-| Stablecoin supply | $15.76B |
+| SOL price (24h) | $96.00 (0.77%) |
+| DeFi TVL | $5.61B |
+| Stablecoin supply | $15.72B |
 | DEX volume, 24h | $2.94B |
 
 ## Anomalies
 
-- **WARNING: defi_tvl_usd:** defi_tvl_usd is unusually above its recent baseline. (robust z=9.84, median=4.855e+09, n=48)
-- **WARNING: delinquent_stake_pct:** delinquent_stake_pct is unusually above its recent baseline. (robust z=9.44, median=0.0202, n=48)
-- **WARNING: slot_time_ms:** slot_time_ms is unusually below its recent baseline. (robust z=-6.36, median=411, n=48)
-- **WARNING: sol_price_usd:** sol_price_usd is unusually above its recent baseline. (robust z=9.97, median=76.56, n=48)
+- **WARNING: defi_tvl_usd:** defi_tvl_usd is unusually above its recent baseline. (robust z=7.26, median=4.875e+09, n=48)
+- **WARNING: delinquent_stake_pct:** delinquent_stake_pct is unusually above its recent baseline. (robust z=9.25, median=0.0202, n=48)
+- **WARNING: slot_time_ms:** slot_time_ms is unusually below its recent baseline. (robust z=-4.79, median=411, n=48)
+- **WARNING: sol_price_usd:** sol_price_usd is unusually above its recent baseline. (robust z=9.26, median=76.56, n=48)
 
 ## Validator concentration
 
@@ -63,14 +63,14 @@ _Generated 2026-08-24T13:16:19Z · schema `solana.ecosystem.pulse.v1` · status 
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 494 ms | 2026-08-24T13:16:12Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 248 ms | 2026-08-24T13:16:12Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 172 ms | 2026-08-24T13:16:12Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 188 ms | 2026-08-24T13:16:12Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 221 ms | 2026-08-24T13:16:12Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 448 ms | 2026-08-24T13:16:12Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 332 ms | 2026-08-24T13:16:12Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7026 ms | 2026-08-24T13:16:12Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 645 ms | 2026-08-24T19:02:45Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 293 ms | 2026-08-24T19:02:45Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 290 ms | 2026-08-24T19:02:45Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 1226 ms | 2026-08-24T19:02:45Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 230 ms | 2026-08-24T19:02:45Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 492 ms | 2026-08-24T19:02:45Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 379 ms | 2026-08-24T19:02:45Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6967 ms | 2026-08-24T19:02:45Z |
 
 ## Coverage and interpretation
 
