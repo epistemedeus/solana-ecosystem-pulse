@@ -1,21 +1,21 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-09-03T16:29:44Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
+_Generated 2026-09-03T21:06:00Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 3,899.4 / 1,821.7 |
-| Recent slot time | 324.3 ms |
-| Epoch progress | 81.7% |
-| Active / delinquent validators | 676 / 19 |
-| Delinquent stake | 0.050% |
+| Recent TPS / non-vote TPS | 3,851.5 / 1,746.0 |
+| Recent slot time | 319.1 ms |
+| Epoch progress | 93.9% |
+| Active / delinquent validators | 675 / 20 |
+| Delinquent stake | 0.161% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $104.07 (4.57%) |
-| DeFi TVL | $5.87B |
-| Stablecoin supply | $15.87B |
+| SOL price (24h) | $104.91 (5.36%) |
+| DeFi TVL | $5.97B |
+| Stablecoin supply | $15.93B |
 | DEX volume, 24h | $2.29B |
 
 ## Anomalies
@@ -41,33 +41,33 @@ _Generated 2026-09-03T16:29:44Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Official Solana news
 
+- [Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second) (Thu, 03 Sep 2026 16:26:00 GMT)
 - [The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped) (Wed, 02 Sep 2026 09:00:00 GMT)
 - [Webinar Recap: Cross-Border Payments in Latin America](https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america) (Tue, 01 Sep 2026 09:00:00 GMT)
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026) (Fri, 28 Aug 2026 16:00:00 GMT)
 - [The Token Supercycle Is Here: Solana Brings Breakpoint 2026 to London](https://solana.com/news/breakpoint-2026-london-speakers) (Thu, 27 Aug 2026 04:15:00 GMT)
 - [Solana Changelog: August 20, 2026](https://solana.com/news/solana-changelog-august-20-2026) (Mon, 24 Aug 2026 14:19:00 GMT)
-- [Lowering Slot Time and Validator Economics](https://solana.com/news/lowering-slot-time-and-validators-economic) (Wed, 19 Aug 2026 10:00:00 GMT)
 
 ### Agave releases
 
+- [Release v4.4.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.3) (2026-09-03T19:20:57Z)
 - [Release v4.4.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.2) (2026-08-28T06:07:28Z)
 - [Release v4.3.0-beta.3](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.3) (2026-08-28T18:53:56Z)
 - [Release v4.2.2](https://github.com/anza-xyz/agave/releases/tag/v4.2.2) (2026-08-28T18:47:41Z)
 - [Release v4.3.0-beta.2](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.2) (2026-08-21T14:34:51Z)
-- [Release v4.3.0-beta.1](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.1) (2026-08-21T12:47:32Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 556 ms | 2026-09-03T16:29:37Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 337 ms | 2026-09-03T16:29:37Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 308 ms | 2026-09-03T16:29:37Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 405 ms | 2026-09-03T16:29:37Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 323 ms | 2026-09-03T16:29:37Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 447 ms | 2026-09-03T16:29:37Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 634 ms | 2026-09-03T16:29:37Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6658 ms | 2026-09-03T16:29:37Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 505 ms | 2026-09-03T21:05:53Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 293 ms | 2026-09-03T21:05:53Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 366 ms | 2026-09-03T21:05:53Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 390 ms | 2026-09-03T21:05:53Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 344 ms | 2026-09-03T21:05:53Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 407 ms | 2026-09-03T21:05:53Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 462 ms | 2026-09-03T21:05:53Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6879 ms | 2026-09-03T21:05:53Z |
 
 ## Coverage and interpretation
 
