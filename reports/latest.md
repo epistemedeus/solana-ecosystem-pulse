@@ -1,26 +1,26 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-09-10T16:28:34Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
+_Generated 2026-09-10T20:55:00Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 3,975.7 / 1,842.0 |
-| Recent slot time | 315.8 ms |
-| Epoch progress | 24.4% |
-| Active / delinquent validators | 677 / 12 |
-| Delinquent stake | 0.024% |
+| Recent TPS / non-vote TPS | 3,826.8 / 1,771.2 |
+| Recent slot time | 326.1 ms |
+| Epoch progress | 36.1% |
+| Active / delinquent validators | 676 / 13 |
+| Delinquent stake | 0.581% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $99.17 (-3.70%) |
+| SOL price (24h) | $100.01 (-2.28%) |
 | DeFi TVL | $5.78B |
-| Stablecoin supply | $15.97B |
+| Stablecoin supply | $15.88B |
 | DEX volume, 24h | $3.00B |
 
 ## Anomalies
 
-- No rule-based or robust-baseline anomalies detected with available data.
+- **WARNING: delinquent_stake_pct:** delinquent_stake_pct is unusually above its recent baseline. (robust z=23.58, median=0.02645, n=48)
 
 ## Validator concentration
 
@@ -50,24 +50,24 @@ _Generated 2026-09-10T16:28:34Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Agave releases
 
+- [Release v4.4.0-alpha.4](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.4) (2026-09-10T19:19:58Z)
 - [Release v4.3.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-rc.0) (2026-09-04T15:46:13Z)
 - [Release v4.4.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.3) (2026-09-03T19:20:57Z)
 - [Release v4.4.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.2) (2026-08-28T06:07:28Z)
 - [Release v4.3.0-beta.3](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.3) (2026-08-28T18:53:56Z)
-- [Release v4.2.2](https://github.com/anza-xyz/agave/releases/tag/v4.2.2) (2026-08-28T18:47:41Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 357 ms | 2026-09-10T16:28:26Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 138 ms | 2026-09-10T16:28:26Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 152 ms | 2026-09-10T16:28:26Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 162 ms | 2026-09-10T16:28:26Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 152 ms | 2026-09-10T16:28:26Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 285 ms | 2026-09-10T16:28:26Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 308 ms | 2026-09-10T16:28:26Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7129 ms | 2026-09-10T16:28:26Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 466 ms | 2026-09-10T20:54:53Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 256 ms | 2026-09-10T20:54:53Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 422 ms | 2026-09-10T20:54:53Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 1104 ms | 2026-09-10T20:54:53Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 291 ms | 2026-09-10T20:54:53Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 394 ms | 2026-09-10T20:54:53Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 471 ms | 2026-09-10T20:54:53Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7251 ms | 2026-09-10T20:54:53Z |
 
 ## Coverage and interpretation
 
