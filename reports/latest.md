@@ -1,21 +1,21 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-09-24T11:53:32Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
+_Generated 2026-09-24T17:16:09Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 3,907.4 / 1,376.5 |
-| Recent slot time | 264.3 ms |
-| Epoch progress | 71.5% |
-| Active / delinquent validators | 676 / 11 |
+| Recent TPS / non-vote TPS | 4,958.1 / 2,423.9 |
+| Recent slot time | 265.5 ms |
+| Epoch progress | 88.3% |
+| Active / delinquent validators | 674 / 12 |
 | Delinquent stake | 0.045% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $113.23 (-3.24%) |
-| DeFi TVL | $6.35B |
-| Stablecoin supply | $16.06B |
+| SOL price (24h) | $117.15 (2.74%) |
+| DeFi TVL | $6.41B |
+| Stablecoin supply | $15.91B |
 | DEX volume, 24h | $2.55B |
 
 ## Anomalies
@@ -41,12 +41,12 @@ _Generated 2026-09-24T11:53:32Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Official Solana news
 
+- [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026) (Thu, 24 Sep 2026 13:20:00 GMT)
 - [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption) (Wed, 23 Sep 2026 14:06:00 GMT)
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026) (Sat, 19 Sep 2026 11:28:00 GMT)
 - [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates) (Sat, 19 Sep 2026 10:00:00 GMT)
 - [Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana) (Wed, 16 Sep 2026 00:56:00 GMT)
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public) (Mon, 14 Sep 2026 11:00:00 GMT)
-- [Solana Changelog: September 10, 2026](https://solana.com/news/solana-changelog-september-10-2026) (Thu, 10 Sep 2026 20:16:00 GMT)
 
 ### Agave releases
 
@@ -60,14 +60,14 @@ _Generated 2026-09-24T11:53:32Z · schema `solana.ecosystem.pulse.v1` · status 
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 408 ms | 2026-09-24T11:53:26Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 116 ms | 2026-09-24T11:53:26Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 113 ms | 2026-09-24T11:53:26Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 122 ms | 2026-09-24T11:53:26Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 124 ms | 2026-09-24T11:53:26Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 314 ms | 2026-09-24T11:53:26Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 360 ms | 2026-09-24T11:53:26Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6283 ms | 2026-09-24T11:53:26Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 393 ms | 2026-09-24T17:16:03Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 282 ms | 2026-09-24T17:16:03Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 233 ms | 2026-09-24T17:16:03Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 871 ms | 2026-09-24T17:16:03Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 264 ms | 2026-09-24T17:16:03Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 227 ms | 2026-09-24T17:16:03Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 321 ms | 2026-09-24T17:16:03Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6405 ms | 2026-09-24T17:16:03Z |
 
 ## Coverage and interpretation
 
