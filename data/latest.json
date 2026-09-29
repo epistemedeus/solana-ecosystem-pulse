@@ -16,17 +16,17 @@
     ]
   },
   "economy": {
-    "circulating_supply_sol": 587853031.37,
-    "defi_tvl_usd": 6538610102.565775,
-    "dex_volume_24h_usd": 1926466128.71,
-    "dex_volume_30d_usd": 76814525496.39003,
-    "dex_volume_7d_usd": 18322673736.11,
-    "dex_volume_change_24h_pct": -10.61,
-    "sol_market_cap_usd": 69789050589.72383,
-    "sol_price_change_24h_pct": -2.4272464832095393,
-    "sol_price_usd": 118.72,
-    "stablecoin_supply_usd": 16382036649.068174,
-    "total_supply_sol": 634919012.66
+    "circulating_supply_sol": 587852668.87,
+    "defi_tvl_usd": 6441772839.731358,
+    "dex_volume_24h_usd": 2290100033.25,
+    "dex_volume_30d_usd": 76555430806.33003,
+    "dex_volume_7d_usd": 16340146057.609999,
+    "dex_volume_change_24h_pct": 18.88,
+    "sol_market_cap_usd": 69273372736.41434,
+    "sol_price_change_24h_pct": -1.1551486574248828,
+    "sol_price_usd": 117.8,
+    "stablecoin_supply_usd": 16244331102.75364,
+    "total_supply_sol": 634918754.54
   },
   "ecosystem": {
     "agave_releases": [
@@ -93,9 +93,9 @@
         "url": "https://solana.com/news/bits-to-bricks-crypto-security-michael-coates"
       },
       {
-        "published_at": "Wed, 16 Sep 2026 00:56:00 GMT",
-        "title": "Project Harmonia Brings Institutional Tokenized Funds to Solana",
-        "url": "https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana"
+        "published_at": "Fri, 18 Sep 2026 10:00:00 GMT",
+        "title": "Breakpoint 2026: A guide to getting oriented (Part 1)",
+        "url": "https://solana.com/news/breakpoint-guide-part1"
       }
     ],
     "simd_updates": [
@@ -131,21 +131,8 @@
       }
     ]
   },
-  "generated_at": "2026-09-28T23:19:47Z",
+  "generated_at": "2026-09-29T05:48:59Z",
   "history": [
-    {
-      "generated_at": "2026-09-16T17:03:57Z",
-      "metrics": {
-        "defi_tvl_usd": 5709425182.360193,
-        "delinquent_stake_pct": 0.0408,
-        "dex_volume_24h_usd": 2703297666.22,
-        "non_vote_tps": 2564.9,
-        "slot_time_ms": 312.5,
-        "sol_price_usd": 97.15,
-        "stablecoin_supply_usd": 15432521245.392273,
-        "tps": 4717.47
-      }
-    },
     {
       "generated_at": "2026-09-16T21:22:03Z",
       "metrics": {
@@ -756,88 +743,101 @@
         "stablecoin_supply_usd": 16382036649.068174,
         "tps": 4297.22
       }
+    },
+    {
+      "generated_at": "2026-09-29T05:48:59Z",
+      "metrics": {
+        "defi_tvl_usd": 6441772839.731358,
+        "delinquent_stake_pct": 0.0053,
+        "dex_volume_24h_usd": 2290100033.25,
+        "non_vote_tps": 1433.38,
+        "slot_time_ms": 263.16,
+        "sol_price_usd": 117.8,
+        "stablecoin_supply_usd": 16244331102.75364,
+        "tps": 3988.08
+      }
     }
   ],
   "network": {
-    "block_height": 429504321,
+    "block_height": 429591581,
     "epoch": 1045,
-    "epoch_progress_pct": 5.73,
-    "epoch_slot_index": 24735,
+    "epoch_progress_pct": 25.93,
+    "epoch_slot_index": 112011,
     "epoch_slots": 432000,
     "health": "ok",
-    "non_vote_tps_recent": 1831.7,
-    "non_vote_tps_rolling": 2039.39,
+    "non_vote_tps_recent": 1433.38,
+    "non_vote_tps_rolling": 1373.78,
     "sample_count": 60,
     "sample_window_seconds": 3600,
-    "slot": 451464735,
-    "slot_time_ms_recent": 272.73,
+    "slot": 451552011,
+    "slot_time_ms_recent": 263.16,
     "solana_core_version": "4.3.0",
-    "tps_recent": 4297.22,
-    "tps_rolling": 4535.48,
-    "transaction_count": 553832992007
+    "tps_recent": 3988.08,
+    "tps_rolling": 3890.91,
+    "transaction_count": 553932140371
   },
   "schema_version": "solana.ecosystem.pulse.v1",
   "sources": [
     {
-      "checked_at": "2026-09-28T23:19:40Z",
+      "checked_at": "2026-09-29T05:48:52Z",
       "error": null,
-      "latency_ms": 552,
+      "latency_ms": 337,
       "name": "agave_releases",
       "status": "ok",
       "url": "https://api.github.com/repos/anza-xyz/agave/releases?per_page=5"
     },
     {
-      "checked_at": "2026-09-28T23:19:40Z",
+      "checked_at": "2026-09-29T05:48:52Z",
       "error": null,
-      "latency_ms": 255,
+      "latency_ms": 168,
       "name": "coingecko",
       "status": "ok",
       "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true"
     },
     {
-      "checked_at": "2026-09-28T23:19:40Z",
+      "checked_at": "2026-09-29T05:48:52Z",
       "error": null,
-      "latency_ms": 608,
+      "latency_ms": 135,
       "name": "defillama_chains",
       "status": "ok",
       "url": "https://api.llama.fi/v2/chains"
     },
     {
-      "checked_at": "2026-09-28T23:19:40Z",
+      "checked_at": "2026-09-29T05:48:52Z",
       "error": null,
-      "latency_ms": 934,
+      "latency_ms": 370,
       "name": "defillama_dex",
       "status": "ok",
       "url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
     },
     {
-      "checked_at": "2026-09-28T23:19:40Z",
+      "checked_at": "2026-09-29T05:48:52Z",
       "error": null,
-      "latency_ms": 976,
+      "latency_ms": 347,
       "name": "defillama_stables",
       "status": "ok",
       "url": "https://stablecoins.llama.fi/stablecoinchains"
     },
     {
-      "checked_at": "2026-09-28T23:19:40Z",
+      "checked_at": "2026-09-29T05:48:52Z",
       "error": null,
-      "latency_ms": 448,
+      "latency_ms": 249,
       "name": "simd_updates",
       "status": "ok",
       "url": "https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5"
     },
     {
-      "checked_at": "2026-09-28T23:19:40Z",
+      "checked_at": "2026-09-29T05:48:52Z",
       "error": null,
-      "latency_ms": 291,
+      "latency_ms": 298,
       "name": "solana_news",
       "status": "ok",
       "url": "https://solana.com/rss.xml"
     },
     {
-      "checked_at": "2026-09-28T23:19:40Z",
+      "checked_at": "2026-09-29T05:48:52Z",
       "error": null,
-      "latency_ms": 6247,
+      "latency_ms": 7210,
       "name": "solana_rpc",
       "status": "ok",
       "url": "https://api.mainnet-beta.solana.com"
