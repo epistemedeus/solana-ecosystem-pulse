@@ -16,17 +16,17 @@
     ]
   },
   "economy": {
-    "circulating_supply_sol": 588006356.06,
-    "defi_tvl_usd": 6533169630.621291,
-    "dex_volume_24h_usd": 2660710413.8400006,
-    "dex_volume_30d_usd": 77238002227.43002,
-    "dex_volume_7d_usd": 15806128628.689999,
-    "dex_volume_change_24h_pct": -0.05,
-    "sol_market_cap_usd": 70204864348.23003,
-    "sol_price_change_24h_pct": 1.8873802517634006,
-    "sol_price_usd": 119.41,
-    "stablecoin_supply_usd": 16067157630.329967,
-    "total_supply_sol": 634996513.36
+    "circulating_supply_sol": 588005865.19,
+    "defi_tvl_usd": 6413287291.838464,
+    "dex_volume_24h_usd": 2534247588.8400006,
+    "dex_volume_30d_usd": 78327454405.43002,
+    "dex_volume_7d_usd": 16895278459.689999,
+    "dex_volume_change_24h_pct": -4.8,
+    "sol_market_cap_usd": 71507982611.0126,
+    "sol_price_change_24h_pct": 0.710285641759229,
+    "sol_price_usd": 121.61,
+    "stablecoin_supply_usd": 16346264782.294117,
+    "total_supply_sol": 634996242.37
   },
   "ecosystem": {
     "agave_releases": [
@@ -131,21 +131,8 @@
       }
     ]
   },
-  "generated_at": "2026-09-30T05:38:45Z",
+  "generated_at": "2026-09-30T12:42:13Z",
   "history": [
-    {
-      "generated_at": "2026-09-17T17:04:35Z",
-      "metrics": {
-        "defi_tvl_usd": 5854042395.43264,
-        "delinquent_stake_pct": 0.0354,
-        "dex_volume_24h_usd": 2800249070.18,
-        "non_vote_tps": 3566.47,
-        "slot_time_ms": 324.32,
-        "sol_price_usd": 101.29,
-        "stablecoin_supply_usd": 15279055654.874346,
-        "tps": 5646.68
-      }
-    },
     {
       "generated_at": "2026-09-17T21:26:42Z",
       "metrics": {
@@ -754,88 +741,101 @@
         "stablecoin_supply_usd": 16067157630.329967,
         "tps": 4421.0
       }
+    },
+    {
+      "generated_at": "2026-09-30T12:42:13Z",
+      "metrics": {
+        "defi_tvl_usd": 6413287291.838464,
+        "delinquent_stake_pct": 0.0562,
+        "dex_volume_24h_usd": 2534247588.8400006,
+        "non_vote_tps": 2316.18,
+        "slot_time_ms": 267.86,
+        "sol_price_usd": 121.61,
+        "stablecoin_supply_usd": 16346264782.294117,
+        "tps": 4810.53
+      }
     }
   ],
   "network": {
-    "block_height": 429911978,
+    "block_height": 430007066,
     "epoch": 1046,
-    "epoch_progress_pct": 0.13,
-    "epoch_slot_index": 542,
+    "epoch_progress_pct": 22.15,
+    "epoch_slot_index": 95706,
     "epoch_slots": 432000,
     "health": "ok",
-    "non_vote_tps_recent": 1926.63,
-    "non_vote_tps_rolling": 1660.67,
+    "non_vote_tps_recent": 2316.18,
+    "non_vote_tps_rolling": 1792.19,
     "sample_count": 60,
     "sample_window_seconds": 3600,
-    "slot": 451872542,
-    "slot_time_ms_recent": 269.06,
+    "slot": 451967706,
+    "slot_time_ms_recent": 267.86,
     "solana_core_version": "4.3.0",
-    "tps_recent": 4421.0,
-    "tps_rolling": 4162.29,
-    "transaction_count": 554309575888
+    "tps_recent": 4810.53,
+    "tps_rolling": 4293.56,
+    "transaction_count": 554413993586
   },
   "schema_version": "solana.ecosystem.pulse.v1",
   "sources": [
     {
-      "checked_at": "2026-09-30T05:38:38Z",
+      "checked_at": "2026-09-30T12:42:06Z",
       "error": null,
-      "latency_ms": 575,
+      "latency_ms": 449,
       "name": "agave_releases",
       "status": "ok",
       "url": "https://api.github.com/repos/anza-xyz/agave/releases?per_page=5"
     },
     {
-      "checked_at": "2026-09-30T05:38:38Z",
+      "checked_at": "2026-09-30T12:42:06Z",
       "error": null,
-      "latency_ms": 176,
+      "latency_ms": 251,
       "name": "coingecko",
       "status": "ok",
       "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true"
     },
     {
-      "checked_at": "2026-09-30T05:38:38Z",
+      "checked_at": "2026-09-30T12:42:06Z",
       "error": null,
-      "latency_ms": 154,
+      "latency_ms": 355,
       "name": "defillama_chains",
       "status": "ok",
       "url": "https://api.llama.fi/v2/chains"
     },
     {
-      "checked_at": "2026-09-30T05:38:38Z",
+      "checked_at": "2026-09-30T12:42:06Z",
       "error": null,
-      "latency_ms": 940,
+      "latency_ms": 369,
       "name": "defillama_dex",
       "status": "ok",
       "url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
     },
     {
-      "checked_at": "2026-09-30T05:38:38Z",
+      "checked_at": "2026-09-30T12:42:06Z",
       "error": null,
-      "latency_ms": 175,
+      "latency_ms": 219,
       "name": "defillama_stables",
       "status": "ok",
       "url": "https://stablecoins.llama.fi/stablecoinchains"
     },
     {
-      "checked_at": "2026-09-30T05:38:38Z",
+      "checked_at": "2026-09-30T12:42:06Z",
       "error": null,
-      "latency_ms": 329,
+      "latency_ms": 348,
       "name": "simd_updates",
       "status": "ok",
       "url": "https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5"
     },
     {
-      "checked_at": "2026-09-30T05:38:38Z",
+      "checked_at": "2026-09-30T12:42:06Z",
       "error": null,
-      "latency_ms": 343,
+      "latency_ms": 365,
       "name": "solana_news",
       "status": "ok",
       "url": "https://solana.com/rss.xml"
     },
     {
-      "checked_at": "2026-09-30T05:38:38Z",
+      "checked_at": "2026-09-30T12:42:06Z",
       "error": null,
-      "latency_ms": 6942,
+      "latency_ms": 7088,
       "name": "solana_rpc",
       "status": "ok",
       "url": "https://api.mainnet-beta.solana.com"
@@ -843,11 +843,11 @@
   ],
   "status": "healthy",
   "validators": {
-    "active_count": 673,
-    "active_stake_sol": 440396360.05,
-    "delinquent_count": 10,
-    "delinquent_stake_pct": 0.0348,
-    "delinquent_stake_sol": 153284.93,
+    "active_count": 671,
+    "active_stake_sol": 440302030.32,
+    "delinquent_count": 12,
+    "delinquent_stake_pct": 0.0562,
+    "delinquent_stake_sol": 247614.66,
     "nakamoto_33_coefficient": 18,
     "top_10_stake_pct": 24.48,
     "top_validators": [
