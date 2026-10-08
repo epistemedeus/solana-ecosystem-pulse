@@ -1,26 +1,26 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-10-08T13:37:41Z · schema `solana.ecosystem.pulse.v1` · status **healthy**_
+_Generated 2026-10-08T23:24:38Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 5,122.1 / 2,571.2 |
-| Recent slot time | 262.0 ms |
-| Epoch progress | 22.3% |
-| Active / delinquent validators | 671 / 8 |
+| Recent TPS / non-vote TPS | 5,026.2 / 2,532.7 |
+| Recent slot time | 269.1 ms |
+| Epoch progress | 52.5% |
+| Active / delinquent validators | 673 / 8 |
 | Delinquent stake | 0.007% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $112.10 (-3.42%) |
-| DeFi TVL | $6.40B |
-| Stablecoin supply | $16.29B |
+| SOL price (24h) | $110.33 (-5.08%) |
+| DeFi TVL | $6.25B |
+| Stablecoin supply | $16.03B |
 | DEX volume, 24h | $2.21B |
 
 ## Anomalies
 
-- No rule-based or robust-baseline anomalies detected with available data.
+- **WARNING: sol_price_usd:** sol_price_usd is unusually below its recent baseline. (robust z=-4.07, median=119.6, n=46)
 
 ## Validator concentration
 
@@ -50,24 +50,24 @@ _Generated 2026-10-08T13:37:41Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Agave releases
 
+- [Release v4.5.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.2) (2026-10-08T20:27:41Z)
 - [Release v4.5.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1) (2026-10-03T06:50:48Z)
 - [Release v4.4.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0) (2026-09-28T15:10:04Z)
 - [Release v4.4.0-alpha.5](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.5) (2026-09-18T15:32:23Z)
 - [Release v4.3.0](https://github.com/anza-xyz/agave/releases/tag/v4.3.0) (2026-09-18T12:15:17Z)
-- [Release v4.3.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-rc.1) (2026-09-11T14:39:49Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 543 ms | 2026-10-08T13:37:33Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 310 ms | 2026-10-08T13:37:33Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 239 ms | 2026-10-08T13:37:33Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 285 ms | 2026-10-08T13:37:33Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 250 ms | 2026-10-08T13:37:33Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 455 ms | 2026-10-08T13:37:33Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 624 ms | 2026-10-08T13:37:33Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7317 ms | 2026-10-08T13:37:33Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 561 ms | 2026-10-08T23:24:30Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 263 ms | 2026-10-08T23:24:30Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 280 ms | 2026-10-08T23:24:30Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 289 ms | 2026-10-08T23:24:30Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 388 ms | 2026-10-08T23:24:30Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 418 ms | 2026-10-08T23:24:30Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 538 ms | 2026-10-08T23:24:30Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7526 ms | 2026-10-08T23:24:30Z |
 
 ## Coverage and interpretation
 
