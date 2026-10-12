@@ -1,11 +1,11 @@
 {
   "anomalies": [
     {
-      "basis": "robust z=-14.57, median=266.7, n=48",
+      "basis": "robust z=-13.46, median=266.7, n=48",
       "message": "slot_time_ms is unusually below its recent baseline.",
       "metric": "slot_time_ms",
       "severity": "warning",
-      "value": 215.05
+      "value": 218.98
     }
   ],
   "coverage": {
@@ -24,17 +24,17 @@
     ]
   },
   "economy": {
-    "circulating_supply_sol": 589107192.86,
-    "defi_tvl_usd": 6289056000.634964,
-    "dex_volume_24h_usd": 1246835804.3100002,
-    "dex_volume_30d_usd": 70847310996.17006,
-    "dex_volume_7d_usd": 12875788785.989998,
-    "dex_volume_change_24h_pct": -3.07,
-    "sol_market_cap_usd": 66411338294.00798,
-    "sol_price_change_24h_pct": 3.0967018153634984,
-    "sol_price_usd": 112.72,
-    "stablecoin_supply_usd": 15941340597.9445,
-    "total_supply_sol": 635659976.74
+    "circulating_supply_sol": 589106760.04,
+    "defi_tvl_usd": 6203471096.967331,
+    "dex_volume_24h_usd": 1277019605.3100002,
+    "dex_volume_30d_usd": 71473479190.17007,
+    "dex_volume_7d_usd": 13501956979.989998,
+    "dex_volume_change_24h_pct": -0.72,
+    "sol_market_cap_usd": 64198860334.59351,
+    "sol_price_change_24h_pct": -0.9640763639699459,
+    "sol_price_usd": 108.98,
+    "stablecoin_supply_usd": 15944350349.130358,
+    "total_supply_sol": 635659543.92
   },
   "ecosystem": {
     "agave_releases": [
@@ -139,21 +139,8 @@
       }
     ]
   },
-  "generated_at": "2026-10-12T06:05:34Z",
+  "generated_at": "2026-10-12T15:36:13Z",
   "history": [
-    {
-      "generated_at": "2026-09-26T21:14:40Z",
-      "metrics": {
-        "defi_tvl_usd": 6631959788.213651,
-        "delinquent_stake_pct": 0.0497,
-        "dex_volume_24h_usd": 2613053225.63,
-        "non_vote_tps": 2191.33,
-        "slot_time_ms": 265.49,
-        "sol_price_usd": 120.74,
-        "stablecoin_supply_usd": 16426434100.743017,
-        "tps": 4723.37
-      }
-    },
     {
       "generated_at": "2026-09-27T05:23:29Z",
       "metrics": {
@@ -762,88 +749,101 @@
         "stablecoin_supply_usd": 15941340597.9445,
         "tps": 4537.78
       }
+    },
+    {
+      "generated_at": "2026-10-12T15:36:13Z",
+      "metrics": {
+        "defi_tvl_usd": 6203471096.967331,
+        "delinquent_stake_pct": 0.0178,
+        "dex_volume_24h_usd": 1277019605.3100002,
+        "non_vote_tps": 2323.68,
+        "slot_time_ms": 218.98,
+        "sol_price_usd": 108.98,
+        "stablecoin_supply_usd": 15944350349.130358,
+        "tps": 5367.48
+      }
     }
   ],
   "network": {
-    "block_height": 433978566,
+    "block_height": 434135133,
     "epoch": 1055,
-    "epoch_progress_pct": 42.01,
-    "epoch_slot_index": 181474,
+    "epoch_progress_pct": 78.29,
+    "epoch_slot_index": 338220,
     "epoch_slots": 432000,
     "health": "ok",
-    "non_vote_tps_recent": 1432.3,
-    "non_vote_tps_rolling": 1773.88,
+    "non_vote_tps_recent": 2323.68,
+    "non_vote_tps_rolling": 2543.73,
     "sample_count": 60,
     "sample_window_seconds": 3600,
-    "slot": 455941474,
-    "slot_time_ms_recent": 215.05,
+    "slot": 456098220,
+    "slot_time_ms_recent": 218.98,
     "solana_core_version": "4.3.0",
-    "tps_recent": 4537.78,
-    "tps_rolling": 4840.02,
-    "transaction_count": 559037351461
+    "tps_recent": 5367.48,
+    "tps_rolling": 5586.88,
+    "transaction_count": 559204627302
   },
   "schema_version": "solana.ecosystem.pulse.v1",
   "sources": [
     {
-      "checked_at": "2026-10-12T06:05:26Z",
+      "checked_at": "2026-10-12T15:36:06Z",
       "error": null,
-      "latency_ms": 407,
+      "latency_ms": 523,
       "name": "agave_releases",
       "status": "ok",
       "url": "https://api.github.com/repos/anza-xyz/agave/releases?per_page=5"
     },
     {
-      "checked_at": "2026-10-12T06:05:26Z",
+      "checked_at": "2026-10-12T15:36:06Z",
       "error": null,
-      "latency_ms": 196,
+      "latency_ms": 256,
       "name": "coingecko",
       "status": "ok",
       "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true"
     },
     {
-      "checked_at": "2026-10-12T06:05:26Z",
+      "checked_at": "2026-10-12T15:36:06Z",
       "error": null,
-      "latency_ms": 270,
+      "latency_ms": 375,
       "name": "defillama_chains",
       "status": "ok",
       "url": "https://api.llama.fi/v2/chains"
     },
     {
-      "checked_at": "2026-10-12T06:05:26Z",
+      "checked_at": "2026-10-12T15:36:06Z",
       "error": null,
-      "latency_ms": 305,
+      "latency_ms": 1107,
       "name": "defillama_dex",
       "status": "ok",
       "url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
     },
     {
-      "checked_at": "2026-10-12T06:05:26Z",
+      "checked_at": "2026-10-12T15:36:06Z",
       "error": null,
-      "latency_ms": 282,
+      "latency_ms": 364,
       "name": "defillama_stables",
       "status": "ok",
       "url": "https://stablecoins.llama.fi/stablecoinchains"
     },
     {
-      "checked_at": "2026-10-12T06:05:26Z",
+      "checked_at": "2026-10-12T15:36:06Z",
       "error": null,
-      "latency_ms": 398,
+      "latency_ms": 383,
       "name": "simd_updates",
       "status": "ok",
       "url": "https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5"
     },
     {
-      "checked_at": "2026-10-12T06:05:26Z",
+      "checked_at": "2026-10-12T15:36:06Z",
       "error": null,
-      "latency_ms": 280,
+      "latency_ms": 447,
       "name": "solana_news",
       "status": "ok",
       "url": "https://solana.com/rss.xml"
     },
     {
-      "checked_at": "2026-10-12T06:05:26Z",
+      "checked_at": "2026-10-12T15:36:06Z",
       "error": null,
-      "latency_ms": 7154,
+      "latency_ms": 7464,
       "name": "solana_rpc",
       "status": "ok",
       "url": "https://api.mainnet-beta.solana.com"
@@ -851,11 +851,11 @@
   ],
   "status": "watch",
   "validators": {
-    "active_count": 671,
-    "active_stake_sol": 438590241.99,
-    "delinquent_count": 10,
-    "delinquent_stake_pct": 0.0392,
-    "delinquent_stake_sol": 171898.07,
+    "active_count": 673,
+    "active_stake_sol": 438683846.91,
+    "delinquent_count": 8,
+    "delinquent_stake_pct": 0.0178,
+    "delinquent_stake_sol": 78293.15,
     "nakamoto_33_coefficient": 18,
     "top_10_stake_pct": 24.48,
     "top_validators": [
