@@ -1,52 +1,53 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-10-12T15:36:13Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-10-13T00:46:46Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 5,367.5 / 2,323.7 |
-| Recent slot time | 219.0 ms |
-| Epoch progress | 78.3% |
-| Active / delinquent validators | 673 / 8 |
-| Delinquent stake | 0.018% |
+| Recent TPS / non-vote TPS | 5,340.2 / 2,215.3 |
+| Recent slot time | 214.3 ms |
+| Epoch progress | 13.2% |
+| Active / delinquent validators | 672 / 8 |
+| Delinquent stake | 0.013% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $108.98 (-0.96%) |
-| DeFi TVL | $6.20B |
-| Stablecoin supply | $15.94B |
-| DEX volume, 24h | $1.28B |
+| SOL price (24h) | $103.62 (-6.99%) |
+| DeFi TVL | $6.06B |
+| Stablecoin supply | $15.86B |
+| DEX volume, 24h | $1.57B |
 
 ## Anomalies
 
-- **WARNING: slot_time_ms:** slot_time_ms is unusually below its recent baseline. (robust z=-13.46, median=266.7, n=48)
+- **WARNING: slot_time_ms:** slot_time_ms is unusually below its recent baseline. (robust z=-11.98, median=266.7, n=48)
+- **WARNING: sol_price_usd:** sol_price_usd is unusually below its recent baseline. (robust z=-4.10, median=119, n=46)
 
 ## Validator concentration
 
 | Rank | Vote account | Stake | Commission |
 |---:|---|---:|---:|
-| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,781,885 SOL | 7% |
-| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 15,956,122 SOL | 0% |
-| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,320,023 SOL | 0% |
-| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 11,147,729 SOL | 0% |
-| 5 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 10,755,463 SOL | 5% |
-| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,332,199 SOL | 10% |
-| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,248,710 SOL | 7% |
-| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,607,284 SOL | 7% |
-| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,811,094 SOL | 5% |
-| 10 | `3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf` | 6,422,658 SOL | 0% |
+| 1 | `CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1` | 17,789,243 SOL | 7% |
+| 2 | `he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk` | 15,958,932 SOL | 0% |
+| 3 | `3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g` | 12,305,752 SOL | 0% |
+| 4 | `8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD` | 11,149,129 SOL | 0% |
+| 5 | `CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb` | 10,758,268 SOL | 5% |
+| 6 | `51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm` | 9,401,788 SOL | 10% |
+| 7 | `26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx` | 9,237,163 SOL | 7% |
+| 8 | `9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF` | 7,681,229 SOL | 7% |
+| 9 | `CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB` | 6,812,456 SOL | 5% |
+| 10 | `3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf` | 6,638,148 SOL | 0% |
 
 ## Ecosystem updates
 
 ### Official Solana news
 
+- [Payments on Solana: September 2026 in Five Stories](https://solana.com/news/payments-on-solana-september-2026-in-five-stories) (Fri, 09 Oct 2026 12:46:00 GMT)
 - [Breakpoint 2026: Booked Breakpoint? Let's Get You Prepped (Part 2)](https://solana.com/news/breakpoint-guide-part2) (Thu, 08 Oct 2026 18:18:00 GMT)
 - [Solana Changelog: October 8, 2026](https://solana.com/news/solana-changelog-october-8-2026) (Thu, 08 Oct 2026 08:33:00 GMT)
 - [Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices](https://solana.com/news/samsung-wallet) (Wed, 07 Oct 2026 23:30:00 GMT)
 - [Solana Ecosystem Roundup: September 2026](https://solana.com/news/solana-ecosystem-roundup-september-2026) (Tue, 06 Oct 2026 19:38:00 GMT)
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions) (Tue, 06 Oct 2026 02:00:00 GMT)
-- [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope) (Mon, 05 Oct 2026 00:00:00 GMT)
 
 ### Agave releases
 
@@ -60,14 +61,14 @@ _Generated 2026-10-12T15:36:13Z · schema `solana.ecosystem.pulse.v1` · status 
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 523 ms | 2026-10-12T15:36:06Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 256 ms | 2026-10-12T15:36:06Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 375 ms | 2026-10-12T15:36:06Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 1107 ms | 2026-10-12T15:36:06Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 364 ms | 2026-10-12T15:36:06Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 383 ms | 2026-10-12T15:36:06Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 447 ms | 2026-10-12T15:36:06Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7464 ms | 2026-10-12T15:36:06Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 255 ms | 2026-10-13T00:46:39Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 116 ms | 2026-10-13T00:46:39Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 209 ms | 2026-10-13T00:46:39Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 213 ms | 2026-10-13T00:46:39Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 135 ms | 2026-10-13T00:46:39Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 224 ms | 2026-10-13T00:46:39Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 170 ms | 2026-10-13T00:46:39Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6897 ms | 2026-10-13T00:46:39Z |
 
 ## Coverage and interpretation
 
