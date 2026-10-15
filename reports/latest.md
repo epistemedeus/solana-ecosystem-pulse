@@ -1,26 +1,26 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-10-15T11:37:11Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-10-15T17:06:25Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 4,688.4 / 1,638.1 |
-| Recent slot time | 219.0 ms |
-| Epoch progress | 38.7% |
-| Active / delinquent validators | 671 / 9 |
-| Delinquent stake | 0.030% |
+| Recent TPS / non-vote TPS | 5,280.8 / 2,125.5 |
+| Recent slot time | 212.0 ms |
+| Epoch progress | 59.9% |
+| Active / delinquent validators | 672 / 8 |
+| Delinquent stake | 0.000% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $102.34 (-4.42%) |
-| DeFi TVL | $5.93B |
-| Stablecoin supply | $15.69B |
+| SOL price (24h) | $105.44 (0.22%) |
+| DeFi TVL | $5.92B |
+| Stablecoin supply | $15.77B |
 | DEX volume, 24h | $2.12B |
 
 ## Anomalies
 
-- **WARNING: slot_time_ms:** slot_time_ms is unusually below its recent baseline. (robust z=-6.67, median=265.5, n=48)
+- **WARNING: slot_time_ms:** slot_time_ms is unusually below its recent baseline. (robust z=-7.55, median=265.5, n=48)
 
 ## Validator concentration
 
@@ -51,23 +51,23 @@ _Generated 2026-10-15T11:37:11Z · schema `solana.ecosystem.pulse.v1` · status 
 ### Agave releases
 
 - [Release v4.4.0-beta.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.1) (2026-10-13T06:35:48Z)
-- [Release v4.3.1](https://github.com/anza-xyz/agave/releases/tag/v4.3.1) (2026-10-13T07:15:23Z)
 - [Release v4.5.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.2) (2026-10-08T20:27:41Z)
 - [Release v4.5.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1) (2026-10-03T06:50:48Z)
 - [Release v4.4.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0) (2026-09-28T15:10:04Z)
+- [Release v4.4.0-alpha.5](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.5) (2026-09-18T15:32:23Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 518 ms | 2026-10-15T11:37:04Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 415 ms | 2026-10-15T11:37:04Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 308 ms | 2026-10-15T11:37:04Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 329 ms | 2026-10-15T11:37:04Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 434 ms | 2026-10-15T11:37:04Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 402 ms | 2026-10-15T11:37:04Z |
-| [solana_news](https://solana.com/rss.xml) | ok | 542 ms | 2026-10-15T11:37:04Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7310 ms | 2026-10-15T11:37:04Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 542 ms | 2026-10-15T17:06:16Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 259 ms | 2026-10-15T17:06:16Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 359 ms | 2026-10-15T17:06:16Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 1223 ms | 2026-10-15T17:06:16Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 742 ms | 2026-10-15T17:06:16Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 388 ms | 2026-10-15T17:06:16Z |
+| [solana_news](https://solana.com/rss.xml) | ok | 401 ms | 2026-10-15T17:06:16Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 8791 ms | 2026-10-15T17:06:16Z |
 
 ## Coverage and interpretation
 
