@@ -1,11 +1,11 @@
 {
   "anomalies": [
     {
-      "basis": "fixed threshold",
-      "message": "DEX volume changed at least 35% day over day.",
-      "metric": "dex_volume_change_24h_pct",
-      "severity": "info",
-      "value": 35.52
+      "basis": "robust z=4.37, median=0.0073, n=48",
+      "message": "delinquent_stake_pct is unusually above its recent baseline.",
+      "metric": "delinquent_stake_pct",
+      "severity": "warning",
+      "value": 0.0455
     }
   ],
   "coverage": {
@@ -24,17 +24,17 @@
     ]
   },
   "economy": {
-    "circulating_supply_sol": 589493594.95,
-    "defi_tvl_usd": 5857858734.145347,
-    "dex_volume_24h_usd": 1697352650.3799996,
-    "dex_volume_30d_usd": 68911411311.02005,
-    "dex_volume_7d_usd": 14764671577.03,
-    "dex_volume_change_24h_pct": 35.52,
-    "sol_market_cap_usd": 62098739149.5241,
-    "sol_price_change_24h_pct": 2.0200469216185404,
-    "sol_price_usd": 105.34,
-    "stablecoin_supply_usd": 15624893753.6812,
-    "total_supply_sol": 636090143.32
+    "circulating_supply_sol": 589493301.49,
+    "defi_tvl_usd": 5872767629.574459,
+    "dex_volume_24h_usd": 1610948501.83,
+    "dex_volume_30d_usd": 66893054269.260025,
+    "dex_volume_7d_usd": 13411001436.840004,
+    "dex_volume_change_24h_pct": -5.09,
+    "sol_market_cap_usd": 61964423848.5193,
+    "sol_price_change_24h_pct": -0.500738035566568,
+    "sol_price_usd": 105.17,
+    "stablecoin_supply_usd": 15562523427.253172,
+    "total_supply_sol": 636089850.13
   },
   "ecosystem": {
     "agave_releases": [
@@ -108,6 +108,18 @@
     ],
     "simd_updates": [
       {
+        "message": "SIMD-0686: Single Program Runtime Environment (#688)",
+        "sha": "749dc8635821",
+        "updated_at": "2026-10-20T04:46:02Z",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/749dc8635821383c5c259d616e337687707f3ef9"
+      },
+      {
+        "message": "SIMD-0684: Loader V3: Allow Prefunded ProgramData (#684)",
+        "sha": "f24b888c352c",
+        "updated_at": "2026-10-20T04:45:01Z",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f24b888c352c115f08438ebdb57f5bba46136745"
+      },
+      {
         "message": "amend SIMD-0464: clarify aliasing rules (#618)",
         "sha": "f1f6c8b05dc2",
         "updated_at": "2026-10-06T04:09:02Z",
@@ -124,36 +136,11 @@
         "sha": "f1afd941b9fa",
         "updated_at": "2026-09-25T00:40:21Z",
         "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/f1afd941b9fa5061ea80a5401feb72172121ebb5"
-      },
-      {
-        "message": "SIMD-0558: Describe pointer validation & update CU cost (#651)",
-        "sha": "8b157e1def5f",
-        "updated_at": "2026-09-23T15:44:12Z",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/8b157e1def5fb3b3779f0935ec71cd7cae271207"
-      },
-      {
-        "message": "Increase TxV1 Account Lock Limit to 96 (#596)",
-        "sha": "b7ca332f0aab",
-        "updated_at": "2026-09-21T13:44:36Z",
-        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/b7ca332f0aabe11ecc6cf36143462d4487d59a39"
       }
     ]
   },
-  "generated_at": "2026-10-19T22:25:01Z",
+  "generated_at": "2026-10-20T04:57:17Z",
   "history": [
-    {
-      "generated_at": "2026-10-05T05:48:31Z",
-      "metrics": {
-        "defi_tvl_usd": 6711458477.083173,
-        "delinquent_stake_pct": 0.3756,
-        "dex_volume_24h_usd": 1649284605.63,
-        "non_vote_tps": 1299.92,
-        "slot_time_ms": 266.67,
-        "sol_price_usd": 120.45,
-        "stablecoin_supply_usd": 16455257229.873333,
-        "tps": 3769.85
-      }
-    },
     {
       "generated_at": "2026-10-05T14:49:49Z",
       "metrics": {
@@ -764,88 +751,101 @@
         "stablecoin_supply_usd": 15624893753.6812,
         "tps": 4796.27
       }
+    },
+    {
+      "generated_at": "2026-10-20T04:57:17Z",
+      "metrics": {
+        "defi_tvl_usd": 5872767629.574459,
+        "delinquent_stake_pct": 0.0455,
+        "dex_volume_24h_usd": 1610948501.83,
+        "non_vote_tps": 1611.68,
+        "slot_time_ms": 220.59,
+        "sol_price_usd": 105.17,
+        "stablecoin_supply_usd": 15562523427.253172,
+        "tps": 4623.98
+      }
     }
   ],
   "network": {
-    "block_height": 437032945,
+    "block_height": 437140759,
     "epoch": 1062,
-    "epoch_progress_pct": 49.5,
-    "epoch_slot_index": 213821,
+    "epoch_progress_pct": 74.46,
+    "epoch_slot_index": 321652,
     "epoch_slots": 432000,
     "health": "ok",
-    "non_vote_tps_recent": 1703.5,
-    "non_vote_tps_rolling": 2419.95,
+    "non_vote_tps_recent": 1611.68,
+    "non_vote_tps_rolling": 1620.97,
     "sample_count": 60,
     "sample_window_seconds": 3600,
-    "slot": 458997821,
-    "slot_time_ms_recent": 215.83,
+    "slot": 459105652,
+    "slot_time_ms_recent": 220.59,
     "solana_core_version": "4.3.2",
-    "tps_recent": 4796.27,
-    "tps_rolling": 5899.26,
-    "transaction_count": 562337432975
+    "tps_recent": 4623.98,
+    "tps_rolling": 4666.65,
+    "transaction_count": 562450765766
   },
   "schema_version": "solana.ecosystem.pulse.v1",
   "sources": [
     {
-      "checked_at": "2026-10-19T22:24:56Z",
+      "checked_at": "2026-10-20T04:57:11Z",
       "error": null,
-      "latency_ms": 568,
+      "latency_ms": 433,
       "name": "agave_releases",
       "status": "ok",
       "url": "https://api.github.com/repos/anza-xyz/agave/releases?per_page=5"
     },
     {
-      "checked_at": "2026-10-19T22:24:56Z",
+      "checked_at": "2026-10-20T04:57:11Z",
       "error": null,
-      "latency_ms": 234,
+      "latency_ms": 155,
       "name": "coingecko",
       "status": "ok",
       "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true"
     },
     {
-      "checked_at": "2026-10-19T22:24:56Z",
+      "checked_at": "2026-10-20T04:57:11Z",
       "error": null,
-      "latency_ms": 212,
+      "latency_ms": 182,
       "name": "defillama_chains",
       "status": "ok",
       "url": "https://api.llama.fi/v2/chains"
     },
     {
-      "checked_at": "2026-10-19T22:24:56Z",
+      "checked_at": "2026-10-20T04:57:11Z",
       "error": null,
-      "latency_ms": 226,
+      "latency_ms": 201,
       "name": "defillama_dex",
       "status": "ok",
       "url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
     },
     {
-      "checked_at": "2026-10-19T22:24:56Z",
+      "checked_at": "2026-10-20T04:57:11Z",
       "error": null,
-      "latency_ms": 164,
+      "latency_ms": 157,
       "name": "defillama_stables",
       "status": "ok",
       "url": "https://stablecoins.llama.fi/stablecoinchains"
     },
     {
-      "checked_at": "2026-10-19T22:24:56Z",
+      "checked_at": "2026-10-20T04:57:11Z",
       "error": null,
-      "latency_ms": 431,
+      "latency_ms": 353,
       "name": "simd_updates",
       "status": "ok",
       "url": "https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5"
     },
     {
-      "checked_at": "2026-10-19T22:24:56Z",
+      "checked_at": "2026-10-20T04:57:11Z",
       "error": null,
-      "latency_ms": 308,
+      "latency_ms": 382,
       "name": "solana_news",
       "status": "ok",
       "url": "https://solana.com/rss.xml"
     },
     {
-      "checked_at": "2026-10-19T22:24:56Z",
+      "checked_at": "2026-10-20T04:57:11Z",
       "error": null,
-      "latency_ms": 5439,
+      "latency_ms": 6573,
       "name": "solana_rpc",
       "status": "ok",
       "url": "https://api.mainnet-beta.solana.com"
@@ -853,13 +853,13 @@
   ],
   "status": "watch",
   "validators": {
-    "active_count": 669,
-    "active_stake_sol": 437879112.22,
-    "delinquent_count": 10,
-    "delinquent_stake_pct": 0.0003,
-    "delinquent_stake_sol": 1510.01,
+    "active_count": 667,
+    "active_stake_sol": 437681389.07,
+    "delinquent_count": 12,
+    "delinquent_stake_pct": 0.0455,
+    "delinquent_stake_sol": 199233.16,
     "nakamoto_33_coefficient": 18,
-    "top_10_stake_pct": 24.27,
+    "top_10_stake_pct": 24.28,
     "top_validators": [
       {
         "commission_pct": 7,
