@@ -1,25 +1,29 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-11-14T18:11:51Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-11-14T22:30:25Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 2,192.8 / 2,192.8 |
-| Recent slot time | 214.3 ms |
-| Epoch progress | 62.9% |
-| Active / delinquent validators | 662 / 37 |
-| Delinquent stake | 0.123% |
+| Recent TPS / non-vote TPS | 2,162.1 / 2,162.1 |
+| Recent slot time | 216.6 ms |
+| Epoch progress | 79.6% |
+| Active / delinquent validators | 663 / 36 |
+| Delinquent stake | 0.092% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $72.69 (-9.12%) |
-| DeFi TVL | $4.78B |
-| Stablecoin supply | $13.84B |
+| SOL price (24h) | $69.68 (-11.22%) |
+| DeFi TVL | $4.72B |
+| Stablecoin supply | $13.80B |
 | DEX volume, 24h | $1.56B |
 
 ## Anomalies
 
+- **WARNING: sol_price_change_24h_pct:** SOL moved at least 10% over 24 hours. (fixed threshold)
+- **WARNING: sol_price_usd:** sol_price_usd is unusually below its recent baseline. (robust z=-3.53, median=93.07, n=48)
+- **WARNING: source.agave_releases:** agave_releases failed; output is partial. (HTTPError: HTTP Error 403: rate limit exceeded)
+- **WARNING: source.simd_updates:** simd_updates failed; output is partial. (HTTPError: HTTP Error 403: rate limit exceeded)
 - **WARNING: source.solana_news:** solana_news failed; output is partial. (HTTPError: HTTP Error 429: Too Many Requests)
 
 ## Validator concentration
@@ -44,24 +48,19 @@ _Generated 2026-11-14T18:11:51Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Agave releases
 
-- [Release v4.5.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0) (2026-11-06T08:17:22Z)
-- [Release v4.4.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.1) (2026-11-05T18:33:50Z)
-- [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0) (2026-10-28T20:35:10Z)
-- [Release v4.5.0-alpha.4](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4) (2026-10-26T20:06:18Z)
-- [Release v4.4.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.1) (2026-10-26T21:15:55Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 509 ms | 2026-11-14T18:11:45Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 168 ms | 2026-11-14T18:11:45Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 140 ms | 2026-11-14T18:11:45Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 137 ms | 2026-11-14T18:11:45Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 314 ms | 2026-11-14T18:11:45Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 384 ms | 2026-11-14T18:11:45Z |
-| [solana_news](https://solana.com/rss.xml) | error | 141 ms | 2026-11-14T18:11:45Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6313 ms | 2026-11-14T18:11:45Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | error | 31 ms | 2026-11-14T22:30:19Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 48 ms | 2026-11-14T22:30:19Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 154 ms | 2026-11-14T22:30:19Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 160 ms | 2026-11-14T22:30:19Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 157 ms | 2026-11-14T22:30:19Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | error | 20 ms | 2026-11-14T22:30:19Z |
+| [solana_news](https://solana.com/rss.xml) | error | 83 ms | 2026-11-14T22:30:19Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6607 ms | 2026-11-14T22:30:19Z |
 
 ## Coverage and interpretation
 
