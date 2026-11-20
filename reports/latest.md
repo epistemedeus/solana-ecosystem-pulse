@@ -1,27 +1,25 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-11-19T20:43:56Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-11-20T07:25:13Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 2,422.4 / 2,422.4 |
+| Recent TPS / non-vote TPS | 1,192.0 / 1,192.0 |
 | Recent slot time | 215.8 ms |
-| Epoch progress | 37.5% |
+| Epoch progress | 78.9% |
 | Active / delinquent validators | 659 / 26 |
 | Delinquent stake | 0.025% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $72.90 (-0.01%) |
-| DeFi TVL | $4.76B |
-| Stablecoin supply | $12.87B |
-| DEX volume, 24h | $1.82B |
+| SOL price (24h) | $72.54 (-3.09%) |
+| DeFi TVL | $4.71B |
+| Stablecoin supply | $12.93B |
+| DEX volume, 24h | $1.85B |
 
 ## Anomalies
 
-- **WARNING: source.agave_releases:** agave_releases failed; output is partial. (HTTPError: HTTP Error 403: rate limit exceeded)
-- **WARNING: source.simd_updates:** simd_updates failed; output is partial. (HTTPError: HTTP Error 403: rate limit exceeded)
 - **WARNING: source.solana_news:** solana_news failed; output is partial. (HTTPError: HTTP Error 429: Too Many Requests)
 
 ## Validator concentration
@@ -46,19 +44,24 @@ _Generated 2026-11-19T20:43:56Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Agave releases
 
+- [Release v5.0.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v5.0.0-alpha.1) (2026-11-19T20:57:32Z)
+- [Release v4.5.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0) (2026-11-06T08:17:22Z)
+- [Release v4.4.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.1) (2026-11-05T18:33:50Z)
+- [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0) (2026-10-28T20:35:10Z)
+- [Release v4.5.0-alpha.4](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4) (2026-10-26T20:06:18Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | error | 151 ms | 2026-11-19T20:43:49Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 306 ms | 2026-11-19T20:43:49Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 297 ms | 2026-11-19T20:43:49Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 1340 ms | 2026-11-19T20:43:49Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 157 ms | 2026-11-19T20:43:49Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | error | 146 ms | 2026-11-19T20:43:49Z |
-| [solana_news](https://solana.com/rss.xml) | error | 154 ms | 2026-11-19T20:43:49Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6214 ms | 2026-11-19T20:43:49Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 286 ms | 2026-11-20T07:25:06Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 58 ms | 2026-11-20T07:25:06Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 238 ms | 2026-11-20T07:25:06Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 983 ms | 2026-11-20T07:25:06Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 173 ms | 2026-11-20T07:25:06Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 175 ms | 2026-11-20T07:25:06Z |
+| [solana_news](https://solana.com/rss.xml) | error | 98 ms | 2026-11-20T07:25:06Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 7145 ms | 2026-11-20T07:25:06Z |
 
 ## Coverage and interpretation
 
