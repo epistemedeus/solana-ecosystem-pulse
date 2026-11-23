@@ -1,26 +1,25 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-11-22T19:46:08Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-11-23T07:48:05Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 2,864.9 / 2,864.9 |
-| Recent slot time | 215.8 ms |
-| Epoch progress | 12.7% |
+| Recent TPS / non-vote TPS | 1,103.5 / 1,103.5 |
+| Recent slot time | 219.0 ms |
+| Epoch progress | 59.3% |
 | Active / delinquent validators | 662 / 23 |
 | Delinquent stake | 0.012% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $70.22 (-0.61%) |
-| DeFi TVL | $4.64B |
-| Stablecoin supply | $13.04B |
-| DEX volume, 24h | $1.35B |
+| SOL price (24h) | $71.98 (4.17%) |
+| DeFi TVL | $4.69B |
+| Stablecoin supply | $13.05B |
+| DEX volume, 24h | $1.19B |
 
 ## Anomalies
 
-- **WARNING: source.agave_releases:** agave_releases failed; output is partial. (HTTPError: HTTP Error 403: rate limit exceeded)
 - **WARNING: source.simd_updates:** simd_updates failed; output is partial. (HTTPError: HTTP Error 403: rate limit exceeded)
 - **WARNING: source.solana_news:** solana_news failed; output is partial. (HTTPError: HTTP Error 429: Too Many Requests)
 
@@ -46,19 +45,24 @@ _Generated 2026-11-22T19:46:08Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Agave releases
 
+- [Release v5.0.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v5.0.0-alpha.1) (2026-11-19T20:57:32Z)
+- [Release v4.5.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0) (2026-11-06T08:17:22Z)
+- [Release v4.4.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.1) (2026-11-05T18:33:50Z)
+- [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0) (2026-10-28T20:35:10Z)
+- [Release v4.5.0-alpha.4](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4) (2026-10-26T20:06:18Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | error | 84 ms | 2026-11-22T19:46:01Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 110 ms | 2026-11-22T19:46:01Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 111 ms | 2026-11-22T19:46:01Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 826 ms | 2026-11-22T19:46:01Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 113 ms | 2026-11-22T19:46:01Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | error | 83 ms | 2026-11-22T19:46:01Z |
-| [solana_news](https://solana.com/rss.xml) | error | 107 ms | 2026-11-22T19:46:01Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6416 ms | 2026-11-22T19:46:01Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 358 ms | 2026-11-23T07:47:59Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 114 ms | 2026-11-23T07:47:59Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 54 ms | 2026-11-23T07:47:59Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 649 ms | 2026-11-23T07:47:59Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 54 ms | 2026-11-23T07:47:59Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | error | 58 ms | 2026-11-23T07:47:59Z |
+| [solana_news](https://solana.com/rss.xml) | error | 66 ms | 2026-11-23T07:47:59Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 5118 ms | 2026-11-23T07:47:59Z |
 
 ## Coverage and interpretation
 
