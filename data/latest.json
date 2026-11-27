@@ -1,20 +1,6 @@
 {
   "anomalies": [
     {
-      "basis": "HTTPError: HTTP Error 403: rate limit exceeded",
-      "message": "agave_releases failed; output is partial.",
-      "metric": "source.agave_releases",
-      "severity": "warning",
-      "value": null
-    },
-    {
-      "basis": "HTTPError: HTTP Error 403: rate limit exceeded",
-      "message": "simd_updates failed; output is partial.",
-      "metric": "source.simd_updates",
-      "severity": "warning",
-      "value": null
-    },
-    {
       "basis": "HTTPError: HTTP Error 429: Too Many Requests",
       "message": "solana_news failed; output is partial.",
       "metric": "source.solana_news",
@@ -38,38 +24,92 @@
     ]
   },
   "economy": {
-    "circulating_supply_sol": 592183047.89,
-    "defi_tvl_usd": 4647070189.17803,
-    "dex_volume_24h_usd": 1511025476.7999997,
-    "dex_volume_30d_usd": 47615989554.88997,
-    "dex_volume_7d_usd": 10884225000.06,
-    "dex_volume_change_24h_pct": 3.72,
-    "sol_market_cap_usd": 42435564834.67688,
-    "sol_price_change_24h_pct": 1.1480248811743679,
-    "sol_price_usd": 71.64,
-    "stablecoin_supply_usd": 12347888801.081638,
-    "total_supply_sol": 638224519.05
+    "circulating_supply_sol": 592238319.28,
+    "defi_tvl_usd": 4702478753.095443,
+    "dex_volume_24h_usd": 1231332152.1699998,
+    "dex_volume_30d_usd": 46466272507.479965,
+    "dex_volume_7d_usd": 9413370661.290003,
+    "dex_volume_change_24h_pct": -18.51,
+    "sol_market_cap_usd": 43309278016.38811,
+    "sol_price_change_24h_pct": 3.1917259921878847,
+    "sol_price_usd": 73.12,
+    "stablecoin_supply_usd": 12367679972.946571,
+    "total_supply_sol": 638285592.34
   },
   "ecosystem": {
-    "agave_releases": [],
-    "news": [],
-    "simd_updates": []
-  },
-  "generated_at": "2026-11-26T21:39:37Z",
-  "history": [
-    {
-      "generated_at": "2026-11-05T06:55:46Z",
-      "metrics": {
-        "defi_tvl_usd": 5565688836.665863,
-        "delinquent_stake_pct": 0.5485,
-        "dex_volume_24h_usd": 2222398076.94,
-        "non_vote_tps": 1072.67,
-        "slot_time_ms": 212.77,
-        "sol_price_usd": 96.22,
-        "stablecoin_supply_usd": 14788225321.898611,
-        "tps": 1072.67
+    "agave_releases": [
+      {
+        "name": "Release v4.5.0-rc.0",
+        "prerelease": true,
+        "published_at": "2026-11-25T19:04:00Z",
+        "tag": "v4.5.0-rc.0",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.0"
+      },
+      {
+        "name": "Release v5.0.0-alpha.1",
+        "prerelease": true,
+        "published_at": "2026-11-19T20:57:32Z",
+        "tag": "v5.0.0-alpha.1",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v5.0.0-alpha.1"
+      },
+      {
+        "name": "Release v4.5.0-beta.0",
+        "prerelease": true,
+        "published_at": "2026-11-06T08:17:22Z",
+        "tag": "v4.5.0-beta.0",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0"
+      },
+      {
+        "name": "Release v4.4.1",
+        "prerelease": false,
+        "published_at": "2026-11-05T18:33:50Z",
+        "tag": "v4.4.1",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.1"
+      },
+      {
+        "name": "Release v4.4.0",
+        "prerelease": false,
+        "published_at": "2026-10-28T20:35:10Z",
+        "tag": "v4.4.0",
+        "url": "https://github.com/anza-xyz/agave/releases/tag/v4.4.0"
       }
-    },
+    ],
+    "news": [],
+    "simd_updates": [
+      {
+        "message": "Withdraw SIMD-0506 (#738)",
+        "sha": "1536c3eceda1",
+        "updated_at": "2026-11-26T00:08:48Z",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/1536c3eceda1779de191453246f939e53d8d7c94"
+      },
+      {
+        "message": "100M CUs Pt2 (#698)",
+        "sha": "e4d2b0e1c035",
+        "updated_at": "2026-11-25T17:40:30Z",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/e4d2b0e1c035385a65a96b3875e5b92af5df868e"
+      },
+      {
+        "message": "SIMD-0706: Reject unknown syscalls and `sol_alloc_free_` (#706)",
+        "sha": "44a4406237de",
+        "updated_at": "2026-11-23T09:59:46Z",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/44a4406237de1597ce56c1d106161dda950cbc68"
+      },
+      {
+        "message": "Amend 0529: charge a flat cu first before execution (#707)",
+        "sha": "6cf17cb7138d",
+        "updated_at": "2026-11-20T02:01:03Z",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/6cf17cb7138d3fac03f5b637c1fde91a00fb48fc"
+      },
+      {
+        "message": "SIMD-0701: Vote Account v5 (#701)",
+        "sha": "ae7b00f3287a",
+        "updated_at": "2026-11-06T23:03:47Z",
+        "url": "https://github.com/solana-foundation/solana-improvement-documents/commit/ae7b00f3287a614c5aa5d0a7ceb7bad0cdc4e022"
+      }
+    ]
+  },
+  "generated_at": "2026-11-27T08:43:19Z",
+  "history": [
     {
       "generated_at": "2026-11-05T20:01:32Z",
       "metrics": {
@@ -680,88 +720,101 @@
         "stablecoin_supply_usd": 12347888801.081638,
         "tps": 1912.45
       }
+    },
+    {
+      "generated_at": "2026-11-27T08:43:19Z",
+      "metrics": {
+        "defi_tvl_usd": 4702478753.095443,
+        "delinquent_stake_pct": 0.0601,
+        "dex_volume_24h_usd": 1231332152.1699998,
+        "non_vote_tps": 1127.58,
+        "slot_time_ms": 218.18,
+        "sol_price_usd": 73.12,
+        "stablecoin_supply_usd": 12367679972.946571,
+        "tps": 1127.58
+      }
     }
   ],
   "network": {
-    "block_height": 452314753,
-    "epoch": 1097,
-    "epoch_progress_pct": 92.12,
-    "epoch_slot_index": 397951,
+    "block_height": 452499975,
+    "epoch": 1098,
+    "epoch_progress_pct": 35.02,
+    "epoch_slot_index": 151288,
     "epoch_slots": 432000,
     "health": "ok",
-    "non_vote_tps_recent": 1912.45,
-    "non_vote_tps_rolling": 1993.01,
+    "non_vote_tps_recent": 1127.58,
+    "non_vote_tps_rolling": 1176.02,
     "sample_count": 60,
     "sample_window_seconds": 3600,
-    "slot": 474301951,
-    "slot_time_ms_recent": 213.52,
+    "slot": 474487287,
+    "slot_time_ms_recent": 218.18,
     "solana_core_version": "4.4.0",
-    "tps_recent": 1912.45,
-    "tps_rolling": 1993.01,
-    "transaction_count": 568538372100
+    "tps_recent": 1127.58,
+    "tps_rolling": 1176.02,
+    "transaction_count": 568594174249
   },
   "schema_version": "solana.ecosystem.pulse.v1",
   "sources": [
     {
-      "checked_at": "2026-11-26T21:39:32Z",
-      "error": "HTTPError: HTTP Error 403: rate limit exceeded",
-      "latency_ms": 115,
+      "checked_at": "2026-11-27T08:43:13Z",
+      "error": null,
+      "latency_ms": 514,
       "name": "agave_releases",
-      "status": "error",
+      "status": "ok",
       "url": "https://api.github.com/repos/anza-xyz/agave/releases?per_page=5"
     },
     {
-      "checked_at": "2026-11-26T21:39:32Z",
+      "checked_at": "2026-11-27T08:43:13Z",
       "error": null,
-      "latency_ms": 160,
+      "latency_ms": 146,
       "name": "coingecko",
       "status": "ok",
       "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true"
     },
     {
-      "checked_at": "2026-11-26T21:39:32Z",
+      "checked_at": "2026-11-27T08:43:13Z",
       "error": null,
-      "latency_ms": 111,
+      "latency_ms": 120,
       "name": "defillama_chains",
       "status": "ok",
       "url": "https://api.llama.fi/v2/chains"
     },
     {
-      "checked_at": "2026-11-26T21:39:32Z",
+      "checked_at": "2026-11-27T08:43:13Z",
       "error": null,
-      "latency_ms": 1232,
+      "latency_ms": 140,
       "name": "defillama_dex",
       "status": "ok",
       "url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
     },
     {
-      "checked_at": "2026-11-26T21:39:32Z",
+      "checked_at": "2026-11-27T08:43:13Z",
       "error": null,
-      "latency_ms": 111,
+      "latency_ms": 824,
       "name": "defillama_stables",
       "status": "ok",
       "url": "https://stablecoins.llama.fi/stablecoinchains"
     },
     {
-      "checked_at": "2026-11-26T21:39:32Z",
-      "error": "HTTPError: HTTP Error 403: rate limit exceeded",
-      "latency_ms": 110,
+      "checked_at": "2026-11-27T08:43:13Z",
+      "error": null,
+      "latency_ms": 392,
       "name": "simd_updates",
-      "status": "error",
+      "status": "ok",
       "url": "https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5"
     },
     {
-      "checked_at": "2026-11-26T21:39:32Z",
+      "checked_at": "2026-11-27T08:43:13Z",
       "error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "latency_ms": 145,
+      "latency_ms": 105,
       "name": "solana_news",
       "status": "error",
       "url": "https://solana.com/rss.xml"
     },
     {
-      "checked_at": "2026-11-26T21:39:32Z",
+      "checked_at": "2026-11-27T08:43:13Z",
       "error": null,
-      "latency_ms": 5288,
+      "latency_ms": 5203,
       "name": "solana_rpc",
       "status": "ok",
       "url": "https://api.mainnet-beta.solana.com"
@@ -769,72 +822,72 @@
   ],
   "status": "watch",
   "validators": {
-    "active_count": 656,
-    "active_stake_sol": 423512229.96,
-    "delinquent_count": 32,
-    "delinquent_stake_pct": 0.0386,
-    "delinquent_stake_sol": 163697.42,
+    "active_count": 654,
+    "active_stake_sol": 423952415.42,
+    "delinquent_count": 34,
+    "delinquent_stake_pct": 0.0601,
+    "delinquent_stake_sol": 255035.79,
     "nakamoto_33_coefficient": 18,
-    "top_10_stake_pct": 24.99,
+    "top_10_stake_pct": 24.98,
     "top_validators": [
       {
         "commission_pct": 0,
         "node_identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        "stake_sol": 16804999.61,
+        "stake_sol": 16815245.1,
         "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk"
       },
       {
         "commission_pct": 7,
         "node_identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        "stake_sol": 15814430.69,
+        "stake_sol": 15826051.59,
         "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1"
       },
       {
         "commission_pct": 0,
         "node_identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        "stake_sol": 12430859.16,
+        "stake_sol": 12437387.71,
         "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g"
       },
       {
         "commission_pct": 0,
         "node_identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
-        "stake_sol": 10236589.18,
+        "stake_sol": 10238108.01,
         "vote_account": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD"
       },
       {
         "commission_pct": 10,
         "node_identity": "7jtWrBuj9k2E5RnoHGWSBosBwqwjZMvEnhe9qGLJdhT4",
-        "stake_sol": 9910258.21,
+        "stake_sol": 9920637.35,
         "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm"
       },
       {
         "commission_pct": 5,
         "node_identity": "JUPiTERkf97eKN222JwY7bkpWuJnwqKtT44fsbJfhkr",
-        "stake_sol": 9615393.62,
+        "stake_sol": 9617109.17,
         "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb"
       },
       {
         "commission_pct": 7,
         "node_identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
-        "stake_sol": 9281562.76,
+        "stake_sol": 9296651.24,
         "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx"
       },
       {
         "commission_pct": 7,
         "node_identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
-        "stake_sol": 8032075.36,
+        "stake_sol": 8037877.4,
         "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF"
       },
       {
         "commission_pct": 0,
         "node_identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
-        "stake_sol": 6971305.27,
+        "stake_sol": 6972140.88,
         "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a"
       },
       {
         "commission_pct": 5,
         "node_identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
-        "stake_sol": 6740286.56,
+        "stake_sol": 6741351.36,
         "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB"
       }
     ]
