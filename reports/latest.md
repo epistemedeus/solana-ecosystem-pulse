@@ -1,26 +1,27 @@
 # Solana Ecosystem Pulse
 
-_Generated 2026-11-27T08:43:19Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
+_Generated 2026-11-27T21:24:04Z · schema `solana.ecosystem.pulse.v1` · status **watch**_
 
 ## Executive snapshot
 
 | Metric | Value |
 |---|---:|
 | Network health | ok |
-| Recent TPS / non-vote TPS | 1,127.6 / 1,127.6 |
-| Recent slot time | 218.2 ms |
-| Epoch progress | 35.0% |
+| Recent TPS / non-vote TPS | 1,843.5 / 1,843.5 |
+| Recent slot time | 212.0 ms |
+| Epoch progress | 84.2% |
 | Active / delinquent validators | 654 / 34 |
 | Delinquent stake | 0.060% |
 | Nakamoto coefficient (33%) | 18 |
-| SOL price (24h) | $73.12 (3.19%) |
-| DeFi TVL | $4.70B |
-| Stablecoin supply | $12.37B |
-| DEX volume, 24h | $1.23B |
+| SOL price (24h) | $71.89 (0.61%) |
+| DeFi TVL | $4.64B |
+| Stablecoin supply | $12.84B |
+| DEX volume, 24h | $870.58M |
 
 ## Anomalies
 
 - **WARNING: source.solana_news:** solana_news failed; output is partial. (HTTPError: HTTP Error 429: Too Many Requests)
+- **INFO: dex_volume_change_24h_pct:** DEX volume changed at least 35% day over day. (fixed threshold)
 
 ## Validator concentration
 
@@ -44,24 +45,24 @@ _Generated 2026-11-27T08:43:19Z · schema `solana.ecosystem.pulse.v1` · status 
 
 ### Agave releases
 
+- [Release v4.5.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.1) (2026-11-27T18:56:05Z)
+- [Release v4.4.2](https://github.com/anza-xyz/agave/releases/tag/v4.4.2) (2026-11-27T19:04:56Z)
 - [Release v4.5.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.0) (2026-11-25T19:04:00Z)
 - [Release v5.0.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v5.0.0-alpha.1) (2026-11-19T20:57:32Z)
 - [Release v4.5.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0) (2026-11-06T08:17:22Z)
-- [Release v4.4.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.1) (2026-11-05T18:33:50Z)
-- [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0) (2026-10-28T20:35:10Z)
 
 ## Source health
 
 | Source | Status | Latency | Checked |
 |---|---|---:|---|
-| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 514 ms | 2026-11-27T08:43:13Z |
-| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 146 ms | 2026-11-27T08:43:13Z |
-| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 120 ms | 2026-11-27T08:43:13Z |
-| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 140 ms | 2026-11-27T08:43:13Z |
-| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 824 ms | 2026-11-27T08:43:13Z |
-| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 392 ms | 2026-11-27T08:43:13Z |
-| [solana_news](https://solana.com/rss.xml) | error | 105 ms | 2026-11-27T08:43:13Z |
-| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 5203 ms | 2026-11-27T08:43:13Z |
+| [agave_releases](https://api.github.com/repos/anza-xyz/agave/releases?per_page=5) | ok | 289 ms | 2026-11-27T21:23:58Z |
+| [coingecko](https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd&include_24hr_change=true&include_market_cap=true) | ok | 144 ms | 2026-11-27T21:23:58Z |
+| [defillama_chains](https://api.llama.fi/v2/chains) | ok | 94 ms | 2026-11-27T21:23:58Z |
+| [defillama_dex](https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume) | ok | 109 ms | 2026-11-27T21:23:58Z |
+| [defillama_stables](https://stablecoins.llama.fi/stablecoinchains) | ok | 179 ms | 2026-11-27T21:23:58Z |
+| [simd_updates](https://api.github.com/repos/solana-foundation/solana-improvement-documents/commits?per_page=5) | ok | 182 ms | 2026-11-27T21:23:58Z |
+| [solana_news](https://solana.com/rss.xml) | error | 93 ms | 2026-11-27T21:23:58Z |
+| [solana_rpc](https://api.mainnet-beta.solana.com) | ok | 6665 ms | 2026-11-27T21:23:58Z |
 
 ## Coverage and interpretation
 
